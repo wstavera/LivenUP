@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+*{
+	box-sizing: border-box;
+}
+
 h1, h2, h4 , h5, h6{
 	text-transform: uppercase;
 	color: #444;
@@ -46,6 +50,22 @@ p{
 	margin: auto;
 	margin-bottom: 50px;
 }
+.columnasx3{
+	width: 33.3%;
+	float: left;
+	padding: 20px 20px;
+	box-sizing: border-box;
+	margin: auto;
+}
+.columnasx3 i{
+	float: left;
+	padding-right: 20px;
+	color: #444;
+}
+.columnasx3 h4{
+	padding-bottom: 20px;
+}
+
 .columnasx4{
 	width: 25%;
 	float: left;
@@ -58,6 +78,7 @@ p{
 	width: 100%;
 }
 .banner-1{
+	margin-top: 50px;
 	width: 100%;
 	background: #1ABC9C;
 	clear: both;
@@ -82,6 +103,32 @@ p{
 	text-decoration: none;
 	margin-left: 20px;
 	font-weight: bold;
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
+.banner-2{
+	margin-top: 50px;
+	background: url(Images/bn.jpg);
+	float: left;
+	width: 100%;
+	height: 200px;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+.banner-2 h3{
+	background: rgba(0, 0, 0, .5);
+	color: #fff;
+	font-size: 22px;
+	font-weight: normal;
+	height: 100%;
+	padding-top: 5%;
+}
+.banner-2 a{
+	text-decoration: none;
+	margin-left: 20px;
+	font-weight: normal;
 	color: #fff;
 	border-bottom: 2px solid #fff;
 }
