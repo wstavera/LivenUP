@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	background: #FBFBFB;
+	height: 228px;
+	position: fixed;
+	z-index: 10;
+}
+.ancho{
+	width: 80%;
+	height: 228px;
+	background: #FBFBFB;
+	margin: auto;
+}
+.logo{
+	width: 40%;
+	height: 228px;
+	background: #FBFBFB;
+	background-image: url("images/logo1.png");
+	float: left;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.logo p a{
+	color: #231F20;
+	font-size: 40px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: adventpro;
+	box-sizing: border-box;
+}
+nav{
+	width: 60%;
+	height: 228px;
+	background: #FBFBFB;
+	float: left;
+	text-align: right;
+	padding-top: 190px;
+	box-sizing: border-box;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	color: #231F20;
+	font-size: 13px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: adventpro;
+}
+nav ul li a:hover{
+	color: RED;
+}
+@font-face{
+	font-family: adventpro;
+	src: url(Fuentes/AdventPro-Regular.ttf);
+}
