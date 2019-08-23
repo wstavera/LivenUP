@@ -37,6 +37,11 @@ p{
 	font-family: 'Lato', sans-serif;
 	font-size: 15px; 
 }
+
+.servicios{
+	text-align: justify;
+}
+
 .wap{
 	width: 90%;
 	margin: auto;

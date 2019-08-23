@@ -3,6 +3,7 @@
 	background-position: center;
 	background-attachment: contain;
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 .ancho-letras{
 	top: 328px;
