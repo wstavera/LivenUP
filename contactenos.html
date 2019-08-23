@@ -73,7 +73,7 @@
 		</div>-->
 		<div class="formulario">
 			<h4 class="der">Formulario de contacto</h4>
-			<form name="contact" method="POST" data-netlify="true">
+			<form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
   				<input type="text" name="name" class="caja-1" required placeholder="Nombre">
   				<input type="email" name="email" class="caja-1" required placeholder="E-mail">
   				<input type="tel" name="telefono" placeholder="Teléfono" class="caja-1" required>
@@ -84,6 +84,7 @@
 				   </select></label>
 				</p>-->
 				<textarea name="message" cols="30" rows="10" class="caja-2" placeholder="Deja tus comentarios aquí"></textarea>
+				<div data-netlify-recaptcha="true"></div>
 				<button type="submit" class="contratar-a correr">Enviar</button>
 			</form>
 		</div>
