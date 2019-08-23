@@ -1,0 +1,24 @@
+@media only screen and (max-width: 480px){
+	.red{
+		display: none;
+	}
+	.columnasx3{
+		width: 100%;
+	}
+	.columnasx4{
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+	.red{
+		display: none;
+	}
+	.columnasx3{
+		width: 100%;
+	}
+	.columnasx4{
+		width: 100%;
+	}
+
+}
