@@ -20,10 +20,12 @@
 	color: #fff;
 	font-family: adventpro;
 	font-size: 40px;
+	padding-top: 20px;
 }
 .letras-slider p{
 	color: #fff;
 	font-family: adventpro;
 	font-size: 20px; 
-	padding-top: 30px;
+	padding-top: 10px;
+	padding-bottom: 20px;
 }
