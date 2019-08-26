@@ -4,9 +4,10 @@
 }
 
 h1, h2, h4 , h5, h6{
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	color: #444;
-	font-family: adventpro;
+	/*font-family: adventpro;*/
+	font-family: sarysoft;
 	letter-spacing: 1px;
 }
 h2{
@@ -14,7 +15,8 @@ h2{
 	color: #333;
 }
 h3{
-	font-family: 'Lato', sans-serif;
+	/*font-family: 'Lato', sans-serif;*/
+	font-family: sarysoft;
 	font-size: 20px;
 	line-height: 1.5;
 	padding-top: 20px;
@@ -24,9 +26,12 @@ h3{
 h4{
 	margin-top: 15px;
 	font-size: 16px;
+	text-transform: uppercase;
 }
 h5{
-	font-family: 'Lato', sans-serif;
+	/*font-family: 'Lato', sans-serif;*/
+	font-family: sarysoft;
+	text-transform: uppercase;
 	line-height: 1.5;
 	font-weight: normal;
 	padding: 10px 0;
@@ -136,4 +141,8 @@ p{
 	font-weight: normal;
 	color: #fff;
 	border-bottom: 2px solid #fff;
+}
+@font-face{
+	font-family: sarysoft;
+	src: url(Fuentes/SarySoft.otf);
 }

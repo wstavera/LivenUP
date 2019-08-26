@@ -19,13 +19,15 @@
 }
 .letras-slider h1{
 	color: #fff;
-	font-family: adventpro;
+	/*font-family: adventpro;*/
+	font-family: sarysoft;
 	font-size: 40px;
 	padding-top: 20px;
 }
 .letras-slider p{
 	color: #fff;
-	font-family: adventpro;
+	/*font-family: adventpro;*/
+	font-family: sarysoft;
 	font-size: 20px; 
 	padding-top: 10px;
 	padding-bottom: 20px;

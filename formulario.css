@@ -1,5 +1,6 @@
 .dos-columnas{
 margin-top: 50px;
+margin-bottom: 50px;
 }
 .datos{
 	float: left;
@@ -53,12 +54,14 @@ margin-top: 50px;
 .datos-contacto{
 	list-style: none;
 	text-align: center;
+
+	/*padding-right: 100px;*/
 }
 .datos-contacto li{
 	color: #444;
 	padding-bottom: 10px;
 	align-items: center;
-	padding-right: 70px;
+	/*padding-right: 70px;*/
 }
 .datos-contacto li i{
 	color: #85c34a;
@@ -76,6 +79,7 @@ margin-top: 50px;
 }
 
 footer{
+	font-family: sarysoft;
 	clear: both;
 	margin-top: 50px;
 	background: #000;
