@@ -2,6 +2,11 @@
 .red{
 	display: none;
 }
+
+.centro{
+	display: none;
+}
+
 header{
 	height: 55px;
 
@@ -117,9 +122,27 @@ h3{
 .formulario h4{
 	text-align: center;
 }
+.banner-2{
+	background: url(Images/bnr.jpg);
+	float: left;
+	width: 100%;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-attachment: fixed;
 }
-@media only screen and (min-width:481px) and (max-width:920px) {
+
+}
+
+
+
+
+
+
+@media only screen and (min-width:481px) and (max-width:1164px) {
 .red{
+	display: none;
+}
+.centro{
 	display: none;
 }
 header{
