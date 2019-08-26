@@ -11,20 +11,24 @@ header{
 	z-index: 10;
 }
 .ancho{
-	width: 80%;
+	width: 90%;
 	height: 228px;
 	background: #FBFBFB;
 	margin: auto;
 	float: left;
 }
 .logo{
-	width: 40%;
+	width: 60%;
 	height: 228px;
 	background: #FBFBFB;
 	background-image: url("Images/logo1.png");
 	float: left;
 	padding-top: 10px;
 	box-sizing: border-box;
+
+	background-repeat: no-repeat;
+	margin-left: 30px;
+
 }
 .logo p a{
 	color: #231F20;
@@ -35,7 +39,7 @@ header{
 	box-sizing: border-box;
 }
 nav{
-	width: 60%;
+	width: 30%;
 	height: 228px;
 	background: #FBFBFB;
 	float: left;
