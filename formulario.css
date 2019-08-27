@@ -2,18 +2,18 @@
 margin-top: 50px;
 margin-bottom: 50px;
 }
-.datos{
-	float: left;
-	width: 25%;
-	margin: auto;
-	color:#999;
-}	
 .formulario{
 	float: left;
 	width: 50%;
 	margin: auto;
 	color:	#999; 
 }
+.datos{
+	float: left;
+	width: 25%;
+	margin: auto;
+	color:#999;
+}	
 .caja-1{
 	width: 250px;
 	height: 40px;
