@@ -5,7 +5,8 @@
 
 header{
 	width: 100%;
-	background: #FBFBFB;
+	/*background: #FBFBFB;*/
+	background:  rgba(255, 255, 255, .8);
 	height: 228px;
 	position: fixed;
 	z-index: 10;
@@ -14,6 +15,7 @@ header{
 	width: 100%;
 	height: 228px;
 	background: #FBFBFB;
+	/*background:  rgba(7, 7, 7, .0);*/
 	margin: auto;
 	float: left;
 }
@@ -21,17 +23,14 @@ header{
 	width: 50%;
 	height: 228px;
 	background: #FBFBFB;
+	/*background:  rgba(0, 0, 0, .0);*/
 	background-image: url("Images/logo1.png");
-
 	float: left;
 	padding-top: 10px;
 	box-sizing: border-box;
-
 	background-repeat: no-repeat;
 	margin-left: 30px;
-
 	cursor: pointer;
-
 }
 .logo p a{
 	color: #231F20;
@@ -45,12 +44,14 @@ header{
 	width: 15%;
 	height: 228px;
 	background: #FBFBFB;
+	/*background:  rgba(0, 0, 0, .0);*/
 	float: left;
 }
 nav{
 	width: 30%;
 	height: 228px;
-	background: #FBFBFB;
+	/*background: #FBFBFB;*/
+	background:  rgba(0, 0, 0, .0);
 	float: left;
 	text-align: right;
 	padding-top: 190px; /*para mover el nav del techo*/
