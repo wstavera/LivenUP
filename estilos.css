@@ -120,6 +120,13 @@ nav > ul > li:hover > ul{
 	opacity: 1;
 	transform: translateX(0%);
 }
+
+nav > ul > li > button:focus > ul{
+	opacity: 1;
+	transform: translateX(0%);
+}
+
+
 @font-face{
 	font-family: sarysoft;
 	src: url(Fuentes/SarySoft.otf);
