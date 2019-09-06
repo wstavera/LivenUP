@@ -44,71 +44,83 @@ header{
 	width: 15%;
 	height: 228px;
 	background: #FBFBFB;
-	/*background:  rgba(0, 0, 0, .0);*/
 	float: left;
 }
 nav{
 	width: 30%;
 	height: 228px;
-	/*background: #FBFBFB;*/
 	background:  rgba(0, 0, 0, .0);
 	float: left;
 	text-align: right;
 	padding-top: 190px; /*para mover el nav del techo*/
 	box-sizing: border-box;
+	/*display: flex;*/
 }
-nav ul li{
-	display: inline;
+
+nav > ul{
+	display: table;
+	overflow: hidden;
+	width: auto;
+	/*background: #000;*/
+	position: relative;
 }
-nav ul li a{
-	color: #231F20;
+nav > ul > li{
+	display: table-cell;
+	
+}
+nav > ul > li > a{
 	font-size: 13px;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding-left: 15px;
 	font-weight: bold;
 	letter-spacing: 1px;
 	font-family: sarysoft;
-}
-nav ul li a:hover{
-	color: RED;
+	color: black;
+	display: block;
+	line-height: 20px;
+	padding: 9px;
+	text-align: center;
 }
 
+nav > ul > li > ul{
+	display: block;
+	overflow: hidden;
+	opacity: 0;
+	transform: translateX(60%);
+	transition: all .6s;
+	width: auto;
+	background: rgba(0, 0, 0, .8);
+	position: relative;
+}
+nav > ul > li > ul > li {
+	display: block;
+}
+
+nav > ul > li > ul > li a{
+	font-size: 13px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: sarysoft;
+	color: #FBFBFB;
+	display: block;
+	line-height: 20px;
+	padding: 5px;
+	text-align: center;
+}
+
+nav  ul li a:hover{
+	/*background: #5da5a2;*/
+	color: red;
+	text-decoration: none;
+}
+
+nav > ul > li:hover > ul{
+	opacity: 1;
+	transform: translateX(0%);
+}
 @font-face{
 	font-family: sarysoft;
 	src: url(Fuentes/SarySoft.otf);
-}
-
-
-
-
-nav ul li ul{
-	display: none;
-	position: absolute;
-	/*min-width: 200px;*/
-	text-align: right;
-	padding-left: 100px;
-
-	background: rgba(7, 7, 7, .3);
-	width: 500px;
-	height: 25px;
-}
-
-nav ul li ul li a{
-	color: #231F20;
-	font-size: 13px;
-	text-decoration: none;
-	/*text-transform: uppercase;*/
-	/*padding-left: 15px;*/
-	/*font-weight: bold;*/
-	letter-spacing: 1px;
-	font-family: sarysoft;
-	padding-top: 10px;
-}
-
-nav ul li:hover > ul{
-	display: block;
-}
-nav ul li ul li a:hover{
-	color: blue;
 }
