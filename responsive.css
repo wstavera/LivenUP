@@ -149,13 +149,13 @@ h3{
 .va-slice-1{
 	background:#000 url(Images/adt8.jpg) no-repeat center center;
 }
-.container{
-	padding-right: 0%;
-	padding-left: 0%;
-	margin-right: 0%;
-	margin-left: 0%;
+/* .container{
+	padding-right: 0;
+	padding-left: 0;
+	margin-right: 0;
+	margin-left: 0;
 	max-width: 100%;
-}
+} */
 }
 
 
@@ -167,6 +167,7 @@ h3{
 /*.red{
 	display: none;
 }*/
+
 .centro{
 	display: none;
 }
@@ -276,11 +277,11 @@ nav ul li a{
 .va-content{
 	margin-left:12px;
 }
-.container{
-	padding-right: 0%;
-	padding-left: 0%;
-	margin-right: 0%;
-	margin-left: 0%;
+/* .container{
+	padding-right: 0;
+	padding-left: 0;
+	margin-right: 0;
+	margin-left: 0;
 	max-width: 100%;
-}
+} */
 }
