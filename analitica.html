@@ -13,25 +13,19 @@
 	<link rel="stylesheet" type="text/css" href="redes.css">
 	<link rel="stylesheet" type="text/css" href="formulario.css">
 	<link rel="stylesheet" type="text/css" href="sss/sss.css" media="all">
+	<link rel="stylesheet" type="text/css" href="acordion2.css">
 	<link rel="stylesheet" type="text/css" href="responsive.css">
-	<link rel="stylesheet" type="text/css" href="acordion.css">
-
-	<!-- Bootstrap core CSS -->
+	<noscript><link rel="stylesheet" type="text/css" href="acordion3.css"></noscript>
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-	<!-- Custom fonts for this template -->
 	<link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-
 	<!-- Custom styles for this template -->
 	<link href="landing-page.min.css" rel="stylesheet">
-
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146591883-1"></script>
 	<script>
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
-
 	gtag('config', 'UA-146591883-1');
 	</script>
 
@@ -39,7 +33,6 @@
 </head>
 <body>
 
-<!--Comienza botones redes-->
 <div class="red">
 		<!--<div id="facebook"><a href="#" target="none" class="fab fa-facebook-f"></a></div>-->
 		<!--<div id="youtube"><a href="#" target="none" class="fab fa-youtube"></a></div>-->
@@ -47,13 +40,11 @@
 		<div id="correo"><a href="contactenos.html" class="fa fa-envelope"></a></div>
 		<div id="whatsapp"><a href="https://wa.me/573105834876?text=Buen%20día,%20me%20gustaría%20conocer%20los%20servicios%20de%20LivenUP" target= "none" class="fab fa-whatsapp"></a></div>
 	</div>
-	<!--Termina botones redes-->
 
 <header>
-	<!--Comienza Menú-->
 	<div class="ancho">
 		<div class="logo" onclick="location.href='index.html'">
-		<p><a href="index.html"></a></p> <!--Título con texto -->	
+		<p><a href="index.html"></a></p>	
 		</div>
 		<div class="centro">
 		</div>
@@ -61,71 +52,127 @@
 			<ul>
 				<li><a href="index.html">INICIO</a></li>
 				<li><a href="servicios.html">SERVICIOS</a>
-				<!--<li><a href="#">Casos de éxito</a></li>-->
 				<li><a href="contactenos.html">CONTÁCTENOS</a></li>
 			</ul>
 		</nav>
 	</div>
-	<!--termina menú-->
 </header>
-
-
-
-<!--comienza contenido-->
-
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>	
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-
-<!-- Image Showcases -->
-<section class="showcase">
+	<br><br><br><br><br>	<br><br><br><br><br>
+	<section class="showcase">
 		<div class="container-fluid p-0">
-		  <div class="row no-gutters">
+			<div class="row no-gutters">
 			<div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('Images/adt4.jpg');"></div>
 			<div class="col-lg-6 order-lg-1 my-auto showcase-text">
-			  <h2>Analítica de datos</h2>
-			  <p class="lead mb-0"><a name="ADD1">El servicio de analítica de datos le ayudará a sacar provecho de sus sistemas de información integrándolos de la mejor manera, no importa si son diferentes plataformas, trabajamos para unificarlas, procesamos y analizamos los datos, los transformamos para que adquieran el nivel que desea.</a></p>
+				<h2>Analítica de datos</h2>
+				<p class="lead mb-0"><a name="ADD1">El servicio de analítica de datos le ayudará a sacar provecho de sus sistemas de información integrándolos de la mejor manera, no importa si son diferentes plataformas, trabajamos para unificarlas, procesamos y analizamos los datos, los transformamos para que adquieran el nivel que desea.</a></p>
 			</div>
-		  </div>
+			</div>
 		</div>
-	  </section>
+	</section>
 
-	<div class="acordion">
-		<h2 class="aco">Divisiones de trabajo</h2>
-		<p class="lead mb-0"">A continuación visualizará las divisiones establecidas para el análisis de datos, cada una de ellas se trata como un proceso por separado al momento de evaluar su compañía</p>
-		<br>
-		<button class="accordion">Análisis de fuentes de información</button>
-		<div class="panel">
-			<p>En construcción</p>
-		</div>
+	<div class="bienvenidos" style="width: 86%; margin: 7%;">
+		<h1 style="font-size: 30px; text-align: center; color: #333;">Divisiones de trabajo</h1>
+		<h2 class="lead mb-0" style="color: #888;">A continuación visualizará las divisiones establecidas para el análisis de datos, cada una de ellas se trata como un proceso por separado al momento de evaluar su compañía</h2>
+	</div>
 
-		<button class="accordion">Correlacionamiento de datos</button>
-		<div class="panel">
-			<p>En construcción</p>
-		</div>
-
-		<button class="accordion">Enfoques cuantitativos y cualitativos</button>
-		<div class="panel">
-			<p>En construcción</p>
-		</div>
-
-		<button class="accordion">Diseño de informes de requerimiento</button>
-		<div class="panel">
-			<p>En construcción</p>
-		</div>
-
-		<button class="accordion">Servicios avanzados</button>
-		<div class="panel">
-			<p>En construcción</p>
+	<div class="container" >
+		<div id="va-accordion" class="va-container">
+			<div class="va-nav">
+				<span class="va-nav-prev">Previous</span>
+				<span class="va-nav-next">Next</span>
+			</div>
+			<div class="va-wrapper">
+				<div class="va-slice va-slice-1">
+					<h3 class="va-title">Análisis de fuentes de información</h3>
+					<div class="va-content">
+						<p>La división de trabajo de análisis de fuentes de información se encarga de realizar un diagnostico a
+							su compañía, delimitando cuales son los sistemas de recolección de datos y verificando la viabilidad
+							de operación con los mismos, estudia detalladamente el uso de sistemas como ERP, CRM, WMS, CSM, SRM
+							entre otros, y diseña un plan de trabajo sugerido para llevar a cabo en las siguientes étapas de
+							producción.</p>
+					</div>
+				</div>
+				<div class="va-slice va-slice-2">
+					<h3 class="va-title">Correlacionamiento de datos</h3>
+					<div class="va-content">
+						<p>El correlacionamiento de datos está enfocado en buscar la mejor forma 
+							de integrar todos sus sistemas de información (incluyendo archivos y 
+							bases de datos locales) para que hablen el mismo idioma y para poder 
+							medirlos posteriormente en una nueva fase de trabajo, no importa cuantos
+							sistemas desee correlacionar, encontraremos la manera correcta de centralizar 
+							sus datos.</p>
+					</div>	
+				</div>
+				<div class="va-slice va-slice-3">
+					<h3 class="va-title">Enfoques cuantitativos y cualitativos</h3>
+					<div class="va-content">
+						<p>Comenzamos a trabajar y analizar sus datos; interpretamos sus sistemas de información
+							y verificamos si debemos tener un enfoque cuantitativo, cualitativo o ambos y así generamos
+							una propuesta de valor que no rechazará con indicadores clave de rendimiento para las diferentes
+							áreas de su compañía.</p>
+					</div>	
+				</div>
+				<div class="va-slice va-slice-4">
+					<h3 class="va-title">Diseño de informes de requerimiento</h3>
+					<div class="va-content">
+						<p>Sus ideas, sus análisis, sus requerimientos, en esta división de trabajo adaptamos sus pensamientos
+							a la realidad, hacemos sinergia entre los datos de los sistemas de información y traemos a la
+							pantalla los informes que nos solicite, piense en la cantidad de puntos a evaluar, o en el tiempo 
+							que ahorrará sin esperar esos informes de fin de mes.</p>
+					</div>	
+				</div>
+				<div class="va-slice va-slice-5">
+					<h3 class="va-title">Servicios avanzados</h3>
+					<div class="va-content">
+						<p>Entre los servicios avanzados, ofrecemos extracción de grandes conjuntos de datos y análisis predictivo,
+							esto le ayudará a tomar mejores decisiones en su modelo de negocio logrando identificar comportamientos
+						tendencias y patrones que pueden reproducirse a futuro. </p>
+					</div>	
+				</div>
+			</div>
 		</div>
 	</div>
+<br>
+	<section class="features-icons bg-light text-center" >
+			<div class="col-lg-12">
+					<h1 class="servi" >Otros Servicios</h1>
+				</div>
+		
+		<div class="container">
+			  <div class="row">
+				<div class="col-lg-4">
+				  <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+					<div class="features-icons-icon d-flex">
+						<a style="text-decoration:none" href="diseño.html" title="diseño" class="m-auto text-primary"><i class="icon-layers m-auto text-primary"></i></a>
+						<!--<i class="icon-layers m-auto text-primary"> <a href=""></a></i>-->
+					</div>
+					<h3 class="serv">Diseño de Software</h3>
+					<p class="lead mb-0">Sus ideas en todas las pantallas! </p>
+				  </div>
+				</div>
+				<div class="col-lg-4">
+				  <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+					<div class="features-icons-icon d-flex">
+						<a style="text-decoration:none" href="bi.html" title="inteligencia" class="m-auto text-primary"><i class="icon-pie-chart m-auto text-primary"></i></a>
+						<!--<i class="icon-pie-chart m-auto text-primary"></i>-->
+					</div>
+					<h3 class="serv">Inteligencia de negocios</h3>
+					<p class="lead mb-0">Su empresa en sus manos!</p>
+				  </div>
+				</div>
+				<div class="col-lg-4">
+					<div class="features-icons-item mx-auto mb-0 mb-lg-3">
+					  <div class="features-icons-icon d-flex">
+						<a style="text-decoration:none" href="seguridad.html" title="seguridad" class="m-auto text-primary"><i class="icon-lock m-auto text-primary"></i></a>
+						<!--<i class="icon-lock m-auto text-primary"></i>-->
+					  </div>
+					  <h3 class="serv"><a name="ADD">Seguridad informática</a></h3>
+					  <p class="lead mb-0">Mejor antes que después!</p>
+					</div>
+				  </div>
+			  </div>
+			</div>
+		  </section>
 
 <section class="banner-2">
 	<h3>Tiene alguna duda, déjenos saber todas sus inquietudes dando clic<a href="contactenos.html">aquí</a>
@@ -138,8 +185,6 @@
 	<div>www.livenup.com.co</div>
 </footer>
 
-<!--termina contenido-->
-
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
@@ -147,6 +192,22 @@
 <script src="sss/sss.min.js"></script>
 <script src="js/acordion.js"></script>
 <script src="https://kit.fontawesome.com/2b66f376d5.js"></script>
+
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="js/jquery.vaccordion.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#va-accordion').vaccordion({
+					accordionW		: $(window).width(),
+					/*accordionH		: $(window).height(),*/
+					visibleSlices	: 5,
+					expandedHeight	: 350,
+					animOpacity		: 0.1,
+					contentAnimSpeed: 100
+				});
+			});
+		</script>
 
 </body>
 </html>

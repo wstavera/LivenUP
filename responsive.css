@@ -2,7 +2,9 @@
 /*.red{
 	display: none;
 }*/
-
+.red{
+	top: 40px;
+}
 .centro{
 	display: none;
 }
@@ -133,7 +135,20 @@ h3{
 	background-size: cover;
 	background-attachment: fixed;
 }
-
+.va-title{
+	font-size:18px;
+	margin-left:10px;
+	text-transform: none;
+}
+.va-slice p{
+	font-size:14px;
+}
+.va-content{
+	margin-left:10px;
+}
+.va-slice-1{
+	background:#000 url(Images/adt8.jpg) no-repeat center center;
+}
 }
 
 
@@ -242,4 +257,17 @@ nav ul li a{
 	/*background: url(Images/barrasr.jpg);*/
 	background-repeat: no-repeat;
 }	
+
+.va-title{
+	font-size:25px;
+	margin-left:12px;
+	text-transform: none;
+}
+.va-slice p{
+	font-size:18px;
+}
+.va-content{
+	margin-left:12px;
+}
+
 }
