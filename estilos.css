@@ -121,11 +121,9 @@ nav  ul li a:hover{
 	transform: translateX(0%);
 }
  
-nav > ul > li > span:focus > ul{
-	opacity: 1;
-	transform: translateX(0%);
-} 
-
+/* .bienvenidos h2 a:hover h2{
+	color: red
+} */
 
 @font-face{
 	font-family: sarysoft;
