@@ -149,10 +149,10 @@ h3{
 .va-slice-1{
 	background:#000 url(Images/adt8.jpg) no-repeat center center;
 }
- .container{
+ /* .container{
 	padding-right: 0;
 	padding-left: 0;
-} 
+}  */
 }
 
 
@@ -274,8 +274,8 @@ nav ul li a{
 .va-content{
 	margin-left:12px;
 }
-.container{
+/* .container{
 padding-right: 0;
 padding-left: 0;
-} 
+}  */
 }
