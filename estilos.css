@@ -116,15 +116,15 @@ nav  ul li a:hover{
 	text-decoration: none;
 }
 
-nav > ul > li:hover > ul{
+ nav > ul > li:hover > ul{
 	opacity: 1;
 	transform: translateX(0%);
 }
-
-nav > ul > li > button:focus > ul{
+ 
+nav > ul > li > span:focus > ul{
 	opacity: 1;
 	transform: translateX(0%);
-}
+} 
 
 
 @font-face{
