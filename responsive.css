@@ -22,11 +22,11 @@ header{
 }
 .logo {
 	width: 100%;
-	height: 130px;
+	height: 150px;
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	background-image: url("Images/logo1r.png");
+	/*background-image: url("Images/logo1r.png");*/
 	background-position: center;
 	
 }
