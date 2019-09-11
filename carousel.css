@@ -58,10 +58,16 @@ h1{
     width: 170px;     
 }
 .btn_nav:focus{
-  outline: none
+  outline: none;
+  background: #000
 }
 .btn_nav:active{
-  outline: none
+  outline: none;
+  background: #000
+}
+.btn_nav:hover{
+  outline: none;
+  background: #000
 }
 .car {
     text-decoration: none;
@@ -144,10 +150,10 @@ h1{
   .columnasx2{
     width: 100%;
     margin: 0;
-    padding: 0 5px;
+    padding: 5px 5px;
   }
   .carusel{
-    height: 800px;
+    height: 700px;
   }
   .picturecar{
     max-height: 300px; 
@@ -177,7 +183,7 @@ h1{
   .columnasx2{
     width: 100%;
     margin: 0;
-    padding: 0 5px;
+    padding: 10px 5px;
   }
   .carusel{
     height: 700px;
