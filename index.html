@@ -39,25 +39,28 @@
 
 	<header>
 			<!--Comienza Menú-->
+			<div class="menu_bar">
+				<a href="#" class="bt-menu"><span class="fas fa-bars" ></span></span></a>
+			</div>
 			<div class="ancho">
 				<div class="logo" onclick="location.href='index.html'">
-				<p><a href="index.html"></a></p> <!--Título con texto -->	
+				
 				</div>
 				<div class="centro">
 				</div>
 				<nav>
 					<ul>
 						
-						<li><a href="index.html">&nbsp;&nbsp;&nbsp;&nbsp;INICIO&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-						<li><a>&nbsp;&nbsp;SERVICIOS <span class="fas fa-angle-down"></span></a>
-								<ul>
-									<li ><a href="analitica.html">Analítica de datos</a></li>
-									<li ><a href="diseño.html">Diseño de Software</a></li>
-									<li ><a href="bi.html">Inteligencia de negocios</a></li>
-									<li ><a href="seguridad.html">Seguridad informática</a></li>
+						<li><a href="index.html">INICIO<span class="caret fas fa-home"></span></a></li>
+						<li class="submenu"><a>SERVICIOS <span class="caret fas fa-angle-down"></span></a>
+								<ul class="children">
+									<li ><a href="analitica.html">Analítica de datos<span class="caret fas fa-chart-bar"></span></a></li>
+									<li ><a href="diseño.html">Diseño de Software<span class="caret fas fa-laptop-code"></span></a></li>
+									<li ><a href="bi.html">Inteligencia de negocios<span class="caret fas fa-chart-pie"></span></a></li>
+									<li ><a href="seguridad.html">Seguridad informática<span class="caret fas fa-lock"></span></a></li>
 								</ul>
 						</li>
-						<li><a href="contactenos.html">CONTÁCTENOS</a></li>
+						<li><a href="contactenos.html">CONTÁCTENOS<span class="caret fas fa-envelope"></span></a></li>
 						
 					</ul>
 				</nav>
@@ -171,6 +174,7 @@
 	<script src="js/app.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 	<script src="js/alto.js"></script>
+	<script src="js/menu.js"></script>
 	<script src="sss/sss.min.js"></script>
 </body>
 </html>

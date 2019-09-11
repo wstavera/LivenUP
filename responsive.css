@@ -1,7 +1,11 @@
 @media only screen and (max-width:480px){
-/*.red{
+.red{
 	display: none;
+}
+/*body {
+	padding-top:80px;
 }*/
+
 .red{
 	top: 40px;
 }
@@ -11,24 +15,25 @@
 
 header{
 	height: 55px;
-
+	background: none
 }
 .ancho{
 	width: 100%;
 	height: 50%;
 	margin: 0;
 	padding: 0;
-	background-color: rgba(0,0,0,0.7);
+	/*display: none*/
 }
 .logo {
 	width: 100%;
-	height: 150px;
+	height: 80px;
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	/*background-image: url("Images/logo1r.png");*/
+	background: rgba(255, 255, 255, 0.5);
+	background-image: url("Images/logomini.png");
 	background-position: center;
-	
+	background-repeat: no-repeat;
 }
 .logo p a{
 	width: 100%;
@@ -137,37 +142,70 @@ h3{
 .va-slice-1{
 	background:#000 url(Images/adt8.jpg) no-repeat center center;
 }
+.menu_bar {
+	display:block;
+	width:20%;
+	position: fixed;
+	top:0;
+	/*background: rgba(0, 0, 0, 0.5);*/
+}
 
+.menu_bar .bt-menu {
+	display: block;
+	padding: 20px;
+	color: #333;
+	overflow: hidden;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
 
-nav{
-	width: 100%;
-	text-align: center;
-	padding: 0px 10px;
+.menu_bar span {
+	float: right;
+	font-size: 40px;
+}
+
+header nav {
+	width: 80%;
+	height: calc(100% - 80px);
+	position: fixed;
+	right:100%;
 	margin: 0;
-	padding-top: 10px; /*4*/
-	background-color: rgba(0,0,0,0.8);
-	height: 40px;/*30*/
+	overflow: scroll;
+	top: 80px;
+	background: rgba(0, 0, 0, 0.5);
 }
-nav > ul{
+
+header nav ul li {
+	display: block;
+	border-bottom:1px solid rgba(255,255,255,.5);
+}
+
+header nav ul li a {
+	display: block;
+}
+
+header nav ul li:hover .children {
+	display: none;
+}
+
+header nav ul li .children {
 	width: 100%;
-}
-nav > ul > li > a{
-	font-size: 10px;
-	color: #fff;
-	padding: 0px;
-}
-nav > ul > li > ul{
-	margin-top: 8px;
-}
-nav > ul > li > ul > li a{
-	font-size: 10px;
-	color: #fff;
-}
+	position: relative;
 }
 
+header nav ul li .children li a {
+	margin-left:20px;
+}
 
+header nav ul li .caret {
+	float: right;
+}
+.showcase{
+	padding-top: 80px;
+}
 
-
+}
 
 
 @media only screen and (min-width:481px) and (max-width:1164px) {
@@ -179,37 +217,29 @@ nav > ul > li > ul > li a{
 	display: none;
 }
 header{
-	height: 55px;
+	background: none
 }
-.ancho{
-	width: 100%;
-	margin: 0;
-	padding: 0;
-
-	height: 50%;
-	background-color: rgba(0,0,0,0.7);
+header nav{
+	text-align: center;
+	background: rgba(0, 0, 0, 0.5);
+	margin:0;
 }
 .logo {
 	width: 100%;
 	height: 150px;
 	text-align: left;
-	padding: 0;
+	padding-top: 0;
 	margin: 0;
-	/*background-image: url("Images/logo1r.png");*/
+	background: rgba(255, 255, 255, 0.8);
+	background-image: url("Images/logo1.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	
 	
 }
 .logo p a{
 	width: 100%;
 	font-size: 30px;
 	margin: 0;
-}
-
-nav ul li a{
-	font-size: 12px;
-	color: #fff;
 }
 .letras-slider h1{
 	font-size: 40px;
@@ -274,32 +304,54 @@ nav ul li a{
 .va-content{
 	margin-left:12px;
 }
+.showcase{
+	padding-top: 214px;
+}
 
 
-nav{
-	width: 100%;
+}
+
+
+@media only screen and (min-width:1165px) {
+	/* header nav{
+		text-align: center;
+		background: rgba(0, 0, 0, 0.5);
+
+	} */
+
+header nav{
+	width: 30%;
+	background:  rgba(0, 0, 0, .0);
+	float: left;
+	text-align: left;
+	padding-top: 92px; /*para mover el nav del techo*/
+}
+
+ header nav > ul > li{
+	display: table-cell;
+	
+} 
+header nav > ul > li > a{
+	font-size: 13px;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-family: sarysoft;
+	color: black;
+	display: block;
+	line-height: 20px;
+	padding: 9px;
 	text-align: center;
-	padding: 0px 10px;
-	margin: 0;
-	padding-top: 10px; /*4*/
-	background-color: rgba(0,0,0,0.8);
-	height: 40px;/*30*/
 }
-nav > ul{
-	width: 100%;
-	float: right;
-}
-nav > ul > li > a{
-	font-size: 12px;
-	color: #fff;
-	padding: 0px;
-}
-nav > ul > li > ul{
-	margin-top: 9px;
-}
-nav > ul > li > ul > li a{
-	font-size: 12px;
-	color: #fff;
+ 
+header nav ul li:hover {
+	background:none;
 }
 
+header nav ul li .children {
+	width: 250%;
+	/*position: relative;*/
+}
+.showcase{
+	padding-top: 150px;
+}
 }
