@@ -140,9 +140,9 @@ h3{
 .va-content{
 	margin-left:10px;
 }
-.va-slice-1{
+/* .va-slice-1{
 	background:#000 url(Images/adt8.jpg) no-repeat center center;
-}
+} */
 .menu_bar {
 	display:block;
 	width:20%;
@@ -206,7 +206,12 @@ header nav ul li .caret {
 .showcase{
 	padding-top: 80px;
 }
-
+.slider-1 h2{
+	font-size: 25px;
+}
+.slider-1 h3{
+	font-size: 17px;
+}
 }
 
 
@@ -309,7 +314,12 @@ header nav{
 .showcase{
 	padding-top: 214px;
 }
-
+.slider-1 h2{
+	font-size: 28px;
+}
+.slider-1 h3{
+	font-size: 18px;
+}
 
 }
 

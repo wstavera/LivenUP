@@ -1,5 +1,5 @@
 .sss {
-	height: 0;
+	height: 480px;
 	margin: 0; 
 	padding: 0;
 	position: relative;
@@ -8,8 +8,8 @@
 }
 
 .ssslide {
-	width: 100%;
-	margin: 0;
+	width: 90%;
+	margin: 5%;
 	padding: 0;
 	position: absolute;
 	top: 0;
@@ -57,4 +57,10 @@
 .slider-1 img{
 	margin: auto;
 	padding-bottom: 20px;
+}
+.slider-1 h2{
+	font-size: 30px;
+}
+.slider-1 h3{
+	font-size: 20px;
 }

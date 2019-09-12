@@ -8,7 +8,7 @@
 	height:100%;
 	position:relative;
 	overflow:hidden;
-	background:#000;
+	background:#fff;
 }
 .va-slice{
 	cursor:pointer;
@@ -18,61 +18,61 @@
 	overflow:hidden;
 }
 .va-slice-1{
-	background:#000 url(Images/adt7.jpg) no-repeat center center;
+	background:#fff url(Images/adt7.png) no-repeat center center;
 	background-size: auto;
 }
 .va-slice-2{
-	background:#000 url(Images/adt9.png) no-repeat center center;
+	background:#fff url(Images/adt9.png) no-repeat center center;
 	background-size: auto;
 }
 .va-slice-3{
-	background:#000 url(Images/adt11.png) no-repeat center center;
+	background:#fff url(Images/adt11.png) no-repeat center center;
 	background-size: auto;
 }
 .va-slice-4{
-	background:#000 url(Images/adt10.png) no-repeat center center;
+	background:#fff url(Images/adt10.png) no-repeat center center;
 	background-size: auto;
 }
 .va-slice-5{
-	background:#000 url(Images/adt12.png) no-repeat center center;
+	background:#fff url(Images/adt12.png) no-repeat center center;
 	background-size: auto;
 }
 }
 .va-slice-6{
-	background:#000 url(../images/6.jpg) no-repeat center center;
+	background:#fff url(../images/6.jpg) no-repeat center center;
 }
 .va-slice-7{
-	background:#000 url(../images/7.jpg) no-repeat center center;
+	background:#fff url(../images/7.jpg) no-repeat center center;
 }
 .va-slice-color-1{
-	background-color:#97c5eb;
+	background-color:#fff;
 }
 .va-slice-color-2{
-	background-color:#68ace5;
+	background-color:#fff;
 }
 .va-slice-color-3{
-	background-color:#0072cf;
+	background-color:#fff;
 }
 .va-slice-color-4{
-	background-color:#0039a6;
+	background-color:#fff;
 }
 .va-slice-color-5{
-	background-color:#00338e;
+	background-color:#fff;
 }
 .va-slice-color-6{
-	background-color:#002c76;
+	background-color:#fff;
 }
 .va-slice-color-7{
-	background-color:#002144;
+	background-color:#fff;
 }
 .va-title{
 	font-family: sarysoft;
 	/*text-transform:uppercase;*/
-	font-size:30px;
+	font-size:28px;
 	margin-left:20px;
-	color:#fff;
+	color:#444;
 	text-shadow: 0px 0px 1px white;
-	background: rgba(7,7,7, 0.3);
+	background: rgba(255,255,255, 0.3);
 }
 .va-content{
 	display:none;
@@ -82,8 +82,8 @@
 	font-size: 22px;
 	font-style: italic;
 	font-family:lato;
-	color:#fff;
-	background: rgba(7,7,7, 0.5);
+	color:#444;
+	background: rgba(255,255,255, 0.5);
 }
 .va-slice ul{
 	margin-top:20px;
@@ -101,7 +101,7 @@
 	text-transform:uppercase;
 }
 .va-slice ul li a:hover{
-	background:#000;
+	background:#fff;
 	color:#fff;
 	text-shadow:none;
 }
@@ -126,4 +126,7 @@
 }
 .va-nav span:hover{
 	opacity:1.0;
+}
+.va-title:hover{
+color:#2B8F9E
 }
