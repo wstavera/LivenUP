@@ -8,11 +8,17 @@ function main () {
 			$('nav').animate({
 				left: '0'
 			});
+			$('.red').animate({
+				left: '-100%'
+			});
 			contador = 0;
 		} else {
 			contador = 1;
 			$('nav').animate({
 				left: '-100%'
+			});
+			$('.red').animate({
+				left: '0'
 			});
 		}
 	});

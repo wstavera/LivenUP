@@ -1,14 +1,15 @@
 @media only screen and (max-width:480px){
-.red{
+/* .red{
 	display: none;
-}
+} */
 /*body {
 	padding-top:80px;
 }*/
 
 .red{
-	top: 40px;
+	top: 180px;
 }
+
 .centro{
 	display: none;
 }
