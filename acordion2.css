@@ -20,22 +20,27 @@
 .va-slice-1{
 	background:#fff url(Images/adt7.png) no-repeat center center;
 	background-size: auto;
+	border-bottom: 1px solid rgba(7,7,7,.5);
 }
 .va-slice-2{
 	background:#fff url(Images/adt9.png) no-repeat center center;
 	background-size: auto;
+	border-bottom: 1px solid rgba(7,7,7,.5);
 }
 .va-slice-3{
 	background:#fff url(Images/adt11.png) no-repeat center center;
 	background-size: auto;
+	border-bottom: 1px solid rgba(7,7,7,.5);
 }
 .va-slice-4{
 	background:#fff url(Images/adt10.png) no-repeat center center;
 	background-size: auto;
+	border-bottom: 1px solid rgba(7,7,7,.5);
 }
 .va-slice-5{
 	background:#fff url(Images/adt12.png) no-repeat center center;
 	background-size: auto;
+	border-bottom: 1px solid rgba(7,7,7,.5);
 }
 }
 .va-slice-6{
