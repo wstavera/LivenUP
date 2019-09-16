@@ -255,10 +255,11 @@ header nav{
 	font-size: 15px;
 }
 .columnasx3{
-	width: 45%;
+	width: 48%;
+	padding: 10px;
 }
 .columnasx4{
-	width: 45%;
+	width: 48%;
 }
 .tablax4{
 	width: 100%;
