@@ -14,9 +14,8 @@
 	<link rel="stylesheet" type="text/css" href="secciones.css">
 	<link rel="stylesheet" type="text/css" href="redes.css">
 	<link rel="stylesheet" type="text/css" href="formulario.css">
-	<link rel="stylesheet" type="text/css" href="sss/sss.css" media="all">
 	<link rel="stylesheet" type="text/css" href="responsive.css">
-	<link rel="stylesheet" type="text/css" href="acordion.css">
+	<link rel="stylesheet" type="text/css" href="pestaña.css">
 
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -40,9 +39,6 @@
 </head>
 <body>
 
-	<!-- <div class="loader"></div>  -->
-
-
 	<div class="loader">
 		<div class="loader-inner">
 			<div class="loader-line-wrap">
@@ -60,9 +56,11 @@
 			<div class="loader-line-wrap">
 				<div class="loader-line"></div>
 			</div>
+			<div class="loader-line-wrap">
+				<div class="loader-line"></div>
+			</div>
 		</div>
 	</div>
-
 
 <!--Comienza botones redes-->
 <div class="red">
@@ -112,7 +110,7 @@
 <!-- Image Showcases -->
 <section class="showcase">
 		<div class="row no-gutters">
-				<div class="col-lg-6 text-white showcase-img" style="background-image: url('Images/si2.png');"></div>
+				<div class="col-lg-6 text-white showcase-img" style="background-image: url('Images/si2.png'); background-size: cover"></div>
 				<div class="col-lg-6 my-auto showcase-text">
 				  <h2>Seguridad informática</h2>
 				  <p class="lead mb-0">Ofrecemos un servicio integral referente a seguridad informática dirigido por los mejores especialistas, le ayudamos con sensibilización, asesoría, auditoría, ciberseguridad, diseño y arquitectura y por supuesto realizamos pruebas de pentesting para sus sistemas y aplicativos. ¿Están sus datos seguros? </p>
@@ -120,35 +118,99 @@
 			  </div>
 	  </section>
 
-	<div class="acordion">
-		<h2 class="aco">Divisiones de trabajo</h2>
-		<p class="lead mb-0"">A continuación visualizará las divisiones establecidas para seguridad informática, cada una de ellas se trata como un proceso por separado al momento de evaluar su compañía</p>
-		<br>
-		<button class="accordion">Asesoría especializada</button>
-		<div class="panel">
-			<p>En construcción</p>
-		</div>
-
-		<button class="accordion">Pentesting (ethical hacking)</button>
-		<div class="panel">
-			<p>En construcción</p>
-		</div>
-
-		<button class="accordion">Sensibilización</button>
-		<div class="panel">
-			<p>En construcción</p>
-		</div>
-
-		<button class="accordion">Ciberseguridad</button>
-		<div class="panel">
-			<p>En construcción</p>
-		</div>
-
-		<button class="accordion">Arquitectura</button>
-		<div class="panel">
-			<p>En construcción</p>
-		</div>
-	</div>
+	
+	<div class="tabs">
+  
+			<input type="radio" id="tab1" name="tab-control" checked>
+			<input type="radio" id="tab2" name="tab-control">
+			<input type="radio" id="tab3" name="tab-control">  
+			<input type="radio" id="tab4" name="tab-control">
+			<input type="radio" id="tab5" name="tab-control">
+			<ul>
+			  <li title="Asesoría"><label for="tab1" role="button">
+				  <svg viewBox="0 0 24 24"><i class="caret fas fa-hands-helping"></i>
+				</svg><br><span>&nbsp;Asesoría</span></label>
+			</li>
+			  <li title="Pentesting"><label for="tab2" role="button">
+				  <svg viewBox="0 0 24 24"><i class="caret fab fa-redhat"></i>
+				</svg><br><span>&nbsp;Pentesting</span></label>
+			</li>
+			  <li title="Sensibilización"><label for="tab3" role="button">
+				  <svg viewBox="0 0 24 24"><i class="caret fas fa-chalkboard-teacher"></i>
+				</svg><br><span>&nbsp;Sensibilización</span></label>
+			</li>    
+			  <li title="Ciberseguridad"><label for="tab4" role="button">
+				  <svg viewBox="0 0 24 24"><i class="caret fas fa-user-secret"></i>
+				</svg><br><span>&nbsp;Ciberseguridad</span></label>
+			</li>
+			  <li title="Arquitectura"><label for="tab5" role="button">
+				  <svg viewBox="0 0 24 24"><i class="caret fas fa-network-wired" ></i>
+				</svg><br><span>&nbsp;Arquitectura</span></label>
+			</li>
+			</ul>
+			
+			<div class="slider"><div class="indicator"></div></div>
+			<div class="content">
+			  <section>
+					<h2>Asesoría</h2>
+					<div class="row no-gutters">
+						<div class="col-lg-6 my-auto showcase-text" style="padding: 10px">
+							Contamos con los mejores ingenieros especialistas en seguridad informática, por ello le ofrecemos una asesoría preferencial de
+							calidad, cuéntenos sus ideas, sus inquitudes o sus problemas para buscar una solución que cubra todos los ámbitos de su negocio.
+						</div>
+						<br><br>
+						<div class="col-lg-6 text-white showcase-img" style="background-image: url('Images/si3.jpg'); background-size: cover; width: 100%; max-width: 450px; height:300px;">
+						</div>
+					</div>
+				</section>
+				<section>
+					<h2>Pentesting</h2>
+					<div class="row no-gutters">
+						<div class="col-lg-6 my-auto showcase-text" style="padding: 10px">
+								Atacamos sus sistemas, sus aplicativos, sus páginas web y sus bases de datos buscando siempre enseñarle cómo protegerlos mejor, 
+								realizamos pruebas de penetración controladas para luego establecer las mejores recomendaciones y soluciones para mitigar estos
+								riesgos, qué espera para evaluar sus redes?</div>
+						<br><br>
+						<div class="col-lg-6 text-white showcase-img" style="background-image: url('Images/si6.jpg'); background-size: cover; width: 100%; max-width: 450px; height:300px;">
+						</div>
+					</div>
+				</section>
+				<section>
+					<h2>Sensibilización</h2>
+					<div class="row no-gutters">
+						<div class="col-lg-6 my-auto showcase-text" style="padding: 10px">
+								De la mano de nuestros especialistas realizamos campañas de sensibilización en asuntos de seguridad informática, se programan 
+								de manera remota o presencial y abordamos desde temas básicos para usuarios finales hasta temas específicos orientados a las mejores
+								prácticas de los encargados de TI.</div>
+						<br><br>
+						<div class="col-lg-6 text-white showcase-img" style="background-image: url('Images/si4.png'); background-size: cover; width: 100%; max-width: 450px; height:300px;">
+						</div>
+					</div>
+				</section>
+				<section>
+					<h2>Ciberseguridad</h2>
+					<div class="row no-gutters">
+						<div class="col-lg-6 my-auto showcase-text" style="padding: 10px">
+								Enfocamos nuestros procesos de ciberseguridad en la prevención y detección de ataques, y asociamos las mejores prácticas para que 
+								usted tome las decisiones en su compañia con sus datos de una manera segura. </div>
+						<br><br>
+						<div class="col-lg-6 text-white showcase-img" style="background-image: url('Images/si5.png'); background-size: cover; width: 100%; max-width: 450px; height:300px;">
+						</div>
+					</div>
+				</section>
+				<section>
+					<h2>Arquitectura</h2>
+					<div class="row no-gutters">
+						<div class="col-lg-6 my-auto showcase-text" style="padding: 10px">
+								Si usted lo prefiere podemos implementar una solución física o remota para agregar anillos de seguridad a su infomración, sus datos
+								contarán con una infraestructura robusta que podrá administrar a su preferencia.</div>
+						<br><br>
+						<div class="col-lg-6 text-white showcase-img" style="background-image: url('Images/si7.jpg'); background-size: cover; width: 100%; max-width: 450px; height:350px;">
+						</div>
+					</div>
+				</section>			
+				</div>
+		  </div>
 
 
 	<br>

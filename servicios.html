@@ -7,6 +7,8 @@
 	
 	<meta name="description" content="Servicios tecnológicos de Analítica de datos, diseño de software, inteligencia de negocios y seguridad informática, los cuales le permitiran tomar las mejores decisiones en su empresa">
 	<meta name="keywords" content="analítica, datos, programación, BI, seguridad, informática"/>
+	
+	<link rel="stylesheet" type="text/css" href="loader.css">
 	<link rel="stylesheet" type="text/css" href="estilos.css">
 	<link rel="stylesheet" type="text/css" href="slider.css">
 	<link rel="stylesheet" type="text/css" href="animate.css">
@@ -41,6 +43,29 @@
 
 </head>
 <body>
+
+		<div class="loader">
+				<div class="loader-inner">
+					<div class="loader-line-wrap">
+						<div class="loader-line"></div>
+					</div>
+					<div class="loader-line-wrap">
+						<div class="loader-line"></div>
+					</div>
+					<div class="loader-line-wrap">
+						<div class="loader-line"></div>
+					</div>
+					<div class="loader-line-wrap">
+						<div class="loader-line"></div>
+					</div>
+					<div class="loader-line-wrap">
+						<div class="loader-line"></div>
+					</div>
+					<div class="loader-line-wrap">
+						<div class="loader-line"></div>
+					</div>
+				</div>
+			</div>
 
 	<div class="red">
 		<!--<div id="facebook"><a href="#" target="none" class="fab fa-facebook-f"></a></div>-->
@@ -235,5 +260,12 @@
 <script src="js/alto.js"></script>
 <script src="js/menu.js"></script>
 <script src="sss/sss.min.js"></script>
+
+<script type="text/javascript">
+	$(window).load(function() {
+		$(".loader").fadeOut("slow");
+	});
+	</script>
+
 </body>
 </html>
