@@ -57,15 +57,8 @@ h1{
     padding: 10px 15px;
     width: 170px;     
 }
-.btn_nav:focus{
-  outline: none;
-  background: #000
-}
-.btn_nav:active{
-  outline: none;
-  background: #000
-}
-.btn_nav:hover{
+
+.btn_nav:hover, .btn_nav:focus, .btn_nav:active{
   outline: none;
   background: #000
 }
