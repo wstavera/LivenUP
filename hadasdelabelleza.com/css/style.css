@@ -3006,9 +3006,12 @@
   .inner_banner_section img {width: 100%; height: 200px;}
   .black_shade h2{padding: 43px 0 0 0;}
   .app_store_section{top: 160px;}
-  .navbar-dark .navbar-toggler{z-index: 9; border: #cc005d 1px solid; outline: none; margin: 7px 67px 7px 0; background: #f0579c;}
+  .navbar-dark .navbar-toggler{z-index: 9; border: #cc005d 1px solid; outline: none; margin: 7px 27px 7px 0; background: #f0579c;}
   .navbar-nav{background: rgba(255, 255, 255, 0.9); padding: 7px; border: rgba(0,0,0,0.3) 1px solid; border-radius: 3px; margin: 7px 0 0 0;}
   .navbar-dark .navbar-nav .nav-link{display: block; padding: 10px; line-height: 22px;}
+
+  .navbar-dark .navbar-nav .nav-link i{display: none}
+
   nav.navbar .navbar-nav li {border-right: none; padding-right: 0; margin-right: 0; border-bottom: #cc005d 1px solid;}
   nav.navbar .navbar-nav li:last-child{border-bottom: none;}
   .contact-heading-sec h2::after{width: 40%;}
@@ -3039,7 +3042,8 @@
   .why_hdlb_section .mb-3, .my-3 {margin-bottom: 4rem !important;}
   .sec_comma {right: 70px;}
   .banner_section .carousel-caption {left: 65px; right: auto; width: 50%; text-align: left; top: 122px;}
-  .banner_section h3 {font-size: 21px;}
+
+  .banner_section h2 {font-size: 20px;}
   .banner_section p {padding-top: 7px;}
   .banner_section a.slide_book{margin-top: 10px;}
   .serv_sec_wrap::before{top: auto; bottom: 0; border-bottom: 42px solid #f1f1f1; border-right: 1000px solid transparent;}
@@ -3125,6 +3129,7 @@
   .payment_summary_div{width: 100%;}
   .down_arw_img {bottom: 28px;}
   .faq_section h2::before{display: none;}
+  
 
   /*------- Added for faq -------*/
   .faq_content_section .panel-title > a{font-size: 13px; padding: 10px 12px; height: 64px;}
