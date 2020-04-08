@@ -2432,7 +2432,7 @@
   .listing_box .col-sm-3{padding-left: 15px !important;}
   .service_login_section{margin-bottom: 20px;}
   .service_continue{text-align: center;}
-  .footer_bottom a{text-decoration: none; color:yellow;}
+  .footer_bottom a{text-decoration: none; color:red;}
   
   .header_section h1{width: 160px;}
   
@@ -2662,7 +2662,6 @@
     position: fixed;
     z-index: 9999;
     top: 50% !important;
-    /*width: 570px;*/
     left: 50%;
     margin-left: 0;
     box-shadow: 0 0 15px 0 #747474;
@@ -2670,9 +2669,7 @@
   }
   
   .select2-container--default .select2-results>.select2-results__options{
-    /*min-height: fit-content !important;*/
     background: #ffffff;
-    /*height: auto;*/
   }
   
   .select2-container--default .select2-results > .select2-results__options {
@@ -2696,8 +2693,6 @@
   
   .service_scrolling #examples {margin: 0 0 0 0; overflow: visible;}
   
- 
-  
   .service_image{
     height: 300px;
     overflow: hidden;
@@ -2707,8 +2702,6 @@
     height: 200px;
     overflow: hidden;
   }
-  
-  
   
   .add_section i{display: block; line-height: 28px;}
   .close_section i{display: block; line-height: 28px;}
@@ -2789,7 +2782,6 @@
   
   @media (min-width:1300px) and (max-width:1600px){
     .testimonial_right .carousel-item{min-height: 444px; height: auto;}
-    /*.testimonial_right .carousel-caption{bottom: 40px;}*/
   }
   @media (min-width:1200px) and (max-width:1300px){
     .testimonial_left img {margin-top: -40px; width: 100%; height: 527px;}
@@ -2829,17 +2821,14 @@
     .listing_box .col-sm-3{padding-left: 15px !important;}
     .scrolling_menu .owl-next {right: 0;}
     .listing_content h2{padding: 6px 0 0 0;}
-    .select2-container{/*width: 94% !important;*/}
     .select2-selection {height: auto !important;}
-    
     .service_name{display: block !important; padding-left: 0 !important;}
     .service_product {display: inline-block !important; padding-left: 0 !important; width: auto; padding-right: 10px;}
     .service_min {display: inline-block !important; padding-left: 0 !important; width: auto; padding-right: 10px;}
     .service_price {display: inline-block !important; padding-left: 0 !important;}
     .select2-selection__arrow{height: 100% !important;}
     .listing_dropdown{width: 61%; margin-right: 10px;}
-    .info_tooltip {/*float: left; width: 7%;*/ text-align: center; 
-  
+    .info_tooltip { text-align: center; }
     .service_head span.pr {width: 64%; float: left;}
     .service_head span.to {width: 36%; float: left;}
     .service_content ul li span.service_text{font-size: 14px; width: 44%;}
@@ -2849,7 +2838,6 @@
     .service_total{width: 63px;}
     .total .service_head span.pr {width: 64%; padding-left: 7px;}
     .service_cart_section h2::after {width: 54%;}
-  
     .faq_section h2::before{width: 58%;}
     .profile_image{height: auto;}
     .profile_menu ul li a span.bg_txt{font-size: 16px;}
@@ -2857,28 +2845,23 @@
     .my_profile_right h3{font-size: 22px; padding: 10px 0 0 0;}
     .profile_menu{margin-top: 20px;}
     .quantity_section{width: auto; margin-top: 22px;}
-    div.qty {/*width: 30px;*/ text-align: center; border: 1px solid #dddddd; padding: 3px 0 0 0; margin: 0;}
+    div.qty { text-align: center; border: 1px solid #dddddd; padding: 3px 0 0 0; margin: 0;}
     .service_form_section h2::after{width: 52%;}
-  
     .testimonial_right .carousel-item{min-height: 444px; height: auto;}
     .testimonial_right .carousel-caption{bottom: 40px; top: 17px;}
     .my_profile_right h2::before {width: 64%;}
-  
     .select2-results ul.select2-results__options li.select2-results__option:first-child span.service_product{display: none !important;}
     .select2-results ul.select2-results__options li.select2-results__option:first-child span.service_min{display: none !important;}
     .select2-results ul.select2-results__options li.select2-results__option:first-child span.service_price span.close_service_dd{top:5px;right:10px;position:absolute;font-size:14px;}
-  
-  
     .add_section{margin: 22px 0 0 12px;}
-  
     .cart_right .quantity_section {margin: 0;}
     .cart_right .service_content .div.qty, div.minus, div.plus {width: 17px; height: 31px; padding: 0 0 4px; line-height: 25px; font-size: 20px; margin: 0;}
     .cart_right .service_content div.qty {padding: 1px 1px 1px; width: 20px; height: 31px; line-height: 25px; background: #fff; margin: 0;}
     .cart_right .service_total {width: 63px; margin: 0; text-align: center;}
     .cart_right .service_remove {margin: 0 0 0 0; width: 31px;}
     .cart_right .service_remove .close_section{width: 100%; height: auto;}
-  
   }
+
   @media (min-width:768px) and (max-width:991px){
     .body_section{min-height: auto;}
     .black_shade h2{padding: 40px 0 0 0;}
@@ -2887,7 +2870,7 @@
     .app_store_section ul li a img{width: 120px; height: auto;}
     .inner_banner_section {margin-top: 100px;}
     .inner_banner_section img {width: 100%; height: 200px;}
-    .navbar-dark .navbar-toggler{z-index: 9; border: #cc005d 1px solid; outline: none; margin: 2px 70px 2px 0;}
+    .navbar-dark .navbar-toggler{z-index: 9; border: #cc005d 1px solid; outline: none; margin: 2px 70px 2px 0; background: #f0579c;}
     .navbar-nav{background:rgba(255, 255, 255, 0.9); padding: 7px; border: rgba(0,0,0,0.3) 1px solid; border-radius: 3px; margin: 7px 0 0 0;}
     .navbar-dark .navbar-nav .nav-link{display: block; padding: 10px; line-height: 22px;}
     nav.navbar .navbar-nav li {border-right: none; padding-right: 0; margin-right: 0; border-bottom: #cc005d 1px solid;}
@@ -2922,29 +2905,22 @@
     .why_hdlb_section{margin-bottom: 0;}
     .blog_section{margin-top: 0;}
     .blog_section .service_inner .col-lg-4{width: 32% !important;}
-  
     .listing_box .col-sm-3{padding-left: 15px !important;}
     .scrolling_menu .owl-prev {height: 42px;}
     .scrolling_menu .owl-next {right: 0; height: 42px;}
     .listing_content h2{padding: 6px 0 0 0;}
-    .select2-container{/*width: 94% !important;*/}
     .select2-selection {height: auto !important;}
-    /*.service_name{display: block !important; padding-left: 0 !important;}
-    .service_product {display: block !important; padding-left: 0 !important;}
-    .service_min {display: block !important; padding-left: 0 !important;}
-    .service_price {display: block !important; padding-left: 0 !important;}*/
     .service_name{display: block !important; padding-left: 0 !important;}
     .service_product {display: inline-block !important; padding-left: 0 !important; width: auto; padding-right: 10px;}
     .service_min {display: inline-block !important; padding-left: 0 !important; width: auto; padding-right: 10px;}
     .service_price {display: inline-block !important; padding-left: 0 !important;}
     .select2-selection__arrow{height: 100% !important;}
     .listing_dropdown{width: 61%; margin-right: 10px;}
-    .info_tooltip {/*float: left; width: 7%;*/ text-align: center; margin: 23px 10px 0 0;}
+    .info_tooltip { text-align: center; margin: 23px 10px 0 0;}
     .continue_button {float: none; margin-left: 0; text-align: right;}
     .continue_btn{text-align: left;}
     .continue_section{width: 100%; margin-top: 13px;}
     .footer_content_section .col-lg-3{width: 50%;}
-  
     .service_head span.pr {width: 64%; float: left;}
     .service_head span.to {width: 36%; float: left;}
     .service_content ul li span.service_text{font-size: 14px; width: 44%;}
@@ -2953,16 +2929,13 @@
     .service_content div.qty {padding: 1px 1px 1px; width: 20px; height: 20px; line-height: 14px;}
     .service_total{width: 63px;}
     .total .service_head span.pr {width: 64%; padding-left: 7px;}
-  
     .service_cart_section{margin: 20px 0 20px 0;}
     .service_login_section .col-sm-7{flex: 0 0 100%; max-width: 100%;}
     .service_login_section .col-sm-5 {flex: 0 0 100%; max-width: 100%;}
     .login_with_mobile_section a.continue_btn {text-align: center;}
     .footer_content_section .col-lg-3{width: 50%;}
-  
     .banner_section .carousel-item {height: 124vh;}
     .down_arw_img{bottom: 38px;}
-  
     .faq_section h2::before{width: 43%;}
     .profile_image{height: auto;}
     .profile_menu ul li a span.bg_txt{font-size: 16px;}
@@ -2971,7 +2944,6 @@
     .profile_menu{margin-top: 20px;}
     .quantity_section{width: 20%; margin-top: 21px;}
     div.qty {text-align: center; border: 1px solid #dddddd; padding: 3px 0 0 0; margin: 0; height: 32px; line-height: 23px;}
-  
     .header_section{position: relative;}
     .listing_section .content{height: auto;}
     .info_tooltip{display: none;}
@@ -2981,7 +2953,6 @@
     .serv_sec_wrap::after{border-bottom: 37px solid #f1f1f1;border-left: 1500px solid transparent; top: auto; bottom: 0;}
     .inner_header_sec .serv_sec_wrap::before{bottom: 28px;}
     .inner_header_sec .serv_sec_wrap::after{bottom: 28px;}
-  
     .cart_menu .navbar-nav{background: none; border: none; padding: 0; border-radius: 0;}
     nav.navbar .cart_menu .navbar-nav li {padding-left: 0; border-left: none; margin-left: 0;}
     .cart_menu .navbar-nav{margin: 0;}
@@ -2995,17 +2966,12 @@
     .scrolling_menu{padding-top: 68px;}
     .serv_top .cart_menu{right: 4px; top: 20px;}
     .serv_top #header-sroll.small .cart_menu{top: 20px;}
-  
     .booking_history_section .form_section{overflow-y: scroll;}
     .booking_history_section .continue_btn {width: auto; line-height: 15px; height: auto; padding: 6px 10px; font-size: 12px;}
     .booking_history_section .my_profile_right h2::before {width: 50%;}
-  
     .select2-results ul.select2-results__options li.select2-results__option:first-child span.service_product{display: none !important;}
     .select2-results ul.select2-results__options li.select2-results__option:first-child span.service_min{display: none !important;}
-    /*.select2-results ul.select2-results__options li.select2-results__option:first-child span.service_price{display: none !important;}*/
     .select2-results ul.select2-results__options li.select2-results__option:first-child span.service_price span.close_service_dd{top:5px;right:10px;position:absolute;font-size:14px;}
-  
-  
     .service_listing_section{padding: 108px 0 0 0;}
     .continue_button {float: right; margin-left: 0; text-align: center;}
     .continue_section {margin: 0; width: auto; display: inline-block; float: left;}
@@ -3015,11 +2981,9 @@
     .scrolling_menu .owl-carousel .owl-item .item h2 a{height: 40px;}
     .add_section{margin: 20px 0 0 0;}
     .close_section{margin: 20px 0 0 0;}
-  
     .services_section .service_inner .col-lg-4{width: 33%; padding: 0 8px;}
     .service_inner .card {background: none;}
     .service_image {height: auto;}
-  
     .cart_right .service_content .div.qty, div.minus, div.plus {width: 17px; height: 31px; padding: 0 0 4px; line-height: 25px; font-size: 20px; margin: 0;}
     .cart_right .service_content div.qty {padding: 1px 1px 1px; width: 20px; height: 31px; line-height: 25px; background: #fff; margin: 0;}
     .banner_section span{left: 10px !important; top: 135px !important; line-height: 10px !important; width: 110px !important; height: 110px !important; border-radius: 50% !important; padding: 26px 0 25px 0; transform: initial;}
@@ -3042,7 +3006,7 @@
   .inner_banner_section img {width: 100%; height: 200px;}
   .black_shade h2{padding: 43px 0 0 0;}
   .app_store_section{top: 160px;}
-  .navbar-dark .navbar-toggler{z-index: 9; border: #cc005d 1px solid; outline: none; margin: 7px 67px 7px 0;}
+  .navbar-dark .navbar-toggler{z-index: 9; border: #cc005d 1px solid; outline: none; margin: 7px 67px 7px 0; background: #f0579c;}
   .navbar-nav{background: rgba(255, 255, 255, 0.9); padding: 7px; border: rgba(0,0,0,0.3) 1px solid; border-radius: 3px; margin: 7px 0 0 0;}
   .navbar-dark .navbar-nav .nav-link{display: block; padding: 10px; line-height: 22px;}
   nav.navbar .navbar-nav li {border-right: none; padding-right: 0; margin-right: 0; border-bottom: #cc005d 1px solid;}
@@ -3105,19 +3069,15 @@
   .inputfile-6 + label strong{padding: 2px 17px; line-height: 32px; height: 34px;}
   .form-group-msg {margin-top: 10px;}
   footer {margin-top: 20px;}
-  /*.owl-carousel .owl-wrapper, .owl-carousel .owl-item{transform: translate3d(-167px, 0px, 0px) !important;}*/
-  .owl-carousel .owl-item{float: left; /*left: 46px;*/ /*width: 167px !important;*/ position: relative;}
+  .owl-carousel .owl-item{float: left;  position: relative;}
   .scrolling_menu .owl-prev{left: 0; height: 38px;}
   .scrolling_menu .owl-next{right: 0; height: 38px;}
   .listing_box .col-sm-3{padding-left: 15px !important;}
   .listing_content h2{padding: 6px 0 0 0;}
-  .select2-container{/*width: 100% !important;*/}
   .select2-selection {height: auto !important;}
   .service_name{display: block !important; padding-left: 0 !important; width: 100%;}
-  .service_product {display: inline-block !important; padding-left: 5px !important; width: auto; /*padding-right: 5px;*/ float: left;}
-  
-  .service_min {display: inline-block !important; padding-left: 5px !important; width: auto; /*padding-right: 5px;*/}
-  
+  .service_product {display: inline-block !important; padding-left: 5px !important; width: auto;  float: left;}
+  .service_min {display: inline-block !important; padding-left: 5px !important; width: auto; }
   .service_price {display: inline-block !important; padding-left: 0 !important;}
   .select2-selection__arrow{height: 100% !important;}
   .continue_button {float: right; margin-left: 0; text-align: center; width: 33%;}
@@ -3139,14 +3099,12 @@
   .quantity_section {float: left; width: 34%;}
   .service_content .div.qty, div.minus, div.plus{width: 33px; height: 34px; padding: 0 4px 4px; line-height: 28px; font-size: 28px;}
   .service_content div.qty {padding: 1px 1px 1px; width: 20px; height: 20px; line-height: 14px;}
-  
   .cart_right .quantity_section{width: 24%;}
   .cart_right .service_content .div.qty, div.minus, div.plus {width: 30px; height: 34px; padding: 0 0 4px; line-height: 30px; font-size: 20px; margin: 10px 0 0 0;}
   .cart_right .service_content div.qty {padding: 1px 1px 1px; width: 20px; height: 31px; line-height: 25px; background: #fff; margin: 10px 0 0 0;}
   .cart_right .service_total {width: 63px; margin: 0; text-align: center;}
   .cart_right .service_remove {margin: 0 0 0 0; width: 31px;}
   .cart_right .service_remove .close_section{width: 100%;}
-  
   .service_total{width: 63px;}
   .total .service_head span.pr {width: 64%; padding-left: 7px;}
   .service_cart_section{margin: 0 0 20px 0;}
@@ -3167,6 +3125,7 @@
   .payment_summary_div{width: 100%;}
   .down_arw_img {bottom: 28px;}
   .faq_section h2::before{display: none;}
+
   /*------- Added for faq -------*/
   .faq_content_section .panel-title > a{font-size: 13px; padding: 10px 12px; height: 64px;}
   .faq_content_section .panel-title > a.collapsed{font-size: 13px;}
@@ -3181,26 +3140,17 @@
   .my_profile_right ul li span.left_head{width: 91px;}
   .my_profile_right ul li span.right_head{width: 61%;}
   .profile_menu{margin-top: 20px;}
-  
   .header_section{position: relative;}
-  /*.inner_header_sec{display: none;}*/
   .inner_banner_section{display: none;}
-  .service_listing_section{/*margin: 160px 0 0 0;*/}
   .app_store_section{display: none;}
-  .listing_section .content{/*height: auto; overflow-y: scroll !important;*/}
   .info_tooltip{display: none; float: right; width: 15%; text-align: center; margin: 23px 0 0 0;}
   .select2-results__option{border-bottom: #dddddd 1px solid;}
   .banner_section .carousel-item {height: auto; min-height: 385px;}
-  /*.mCustomScrollBox{overflow: scroll !important;}
-  #examples{overflow: scroll !important;}*/
-  .mCSB_container{/*overflow: scroll !important;*/}
-  
   .cart_menu .navbar-nav{background: none; border: none; padding: 0; border-radius: 0;}
   nav.navbar .cart_menu .navbar-nav li {padding-left: 0; border-left: none; margin-left: 0;}
   .cart_menu .navbar-nav{margin: 0;}
   .navbar-dark .cart_menu .navbar-nav .nav-link{margin: 0; padding: 0;}
   nav.navbar .container{position: relative;}
-  
   .navbar{padding: 0;}
   .header_section h1{padding: 18px 16px 0 16px;}
   .header_section.serv_top h1{padding: 0 16px 0 16px;}
@@ -3210,28 +3160,17 @@
   .serv_top .cart_menu{top: 20px;}    
   #header-sroll.small .cart_menu{top: 34px;}
   .serv_top #header-sroll.small .cart_menu{top: 14px;}
-  .inner_section{/*margin-top: 160px;*/}
-  .hdlb-abt-sec{/*margin-top: 160px;*/}
-  
   .space_area_mobile{height: 114px;}
-  /*#header-sroll{position: absolute;}*/
-  
   .booking_history_section .my_profile_right h2::before {width: 31%;}
   .booking_history_section .form_section{overflow-y: scroll;}
   .booking_history_section .continue_btn {width: auto; line-height: 15px; height: auto; padding: 6px 10px; font-size: 12px;}
-  
   .scrolling_menu{margin-top: 31px; padding-top: 23px;}
-  
   .select2-results ul.select2-results__options li.select2-results__option:first-child span.service_product{display: none !important;}
   .select2-results ul.select2-results__options li.select2-results__option:first-child span.service_min{display: none !important;}
-  /*.select2-results ul.select2-results__options li.select2-results__option:first-child span.service_price{display: none !important;}*/
   .select2-results ul.select2-results__options li.select2-results__option:first-child span.service_price span.close_service_dd{top:5px;right:10px;position:absolute;font-size:14px;}
-  
-  
   .service_price_box{bottom: 0px; position: fixed; width: 100%; left: 0; z-index: 999;}
   .inner_section .right_serv_bg{display: none;}
   .inner_section .right_serv_bg_bottom{display: none;}
-  
   #return-to-top{bottom: 65px;}
   .alert-mobile{position: fixed; bottom: 0; right: 0; z-index: 99; margin: 0; padding: 6px 10px; width: 91%; font-size: 14px; background-color: #f8d7da !important;}
   #error.alert-mobile .close {position: absolute; right: 4px; color: red; top: 0;}
@@ -3259,7 +3198,6 @@
   .log_sec {text-align: center;}
   .service_space{min-height: 50px;}
   .listing_section .div.qty, div.minus, div.plus {width: 28px; height: 33px;}
-  
   .service_cart_section ul li span.service_text {font-size: 12px; width: 33%;}
   .service_cart_section .div.qty, div.minus, div.plus {width: 18px;height: 31px;}
   .service_cart_section .service_remove {margin: 10px 0 0 0; width: 27px;}
@@ -3286,8 +3224,6 @@
     .service_content ul li span.service_text {font-size: 14px; width: 44%;}
     .quantity_section{float: left; width: 46%;}
     .my_profile_right h2::before {width: 70%;}
-    /*.listing_section .listing_box{width: 48%; float: left; margin-right: 10px;}
-    .listing_section .listing_box:nth-child(2n+2){margin-right: 0;}*/
     .listing_content p{min-height: 70px; font-size: 13px;}
     .listing_content h2{font-size: 17px;}
     .services_section .service_inner .col-lg-3{width: 50%;}
