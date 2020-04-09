@@ -3009,9 +3009,7 @@
   .navbar-dark .navbar-toggler{z-index: 9; border: #cc005d 1px solid; outline: none; margin: 7px 27px 7px 0; background: #f0579c;}
   .navbar-nav{background: rgba(255, 255, 255, 0.9); padding: 7px; border: rgba(0,0,0,0.3) 1px solid; border-radius: 3px; margin: 7px 0 0 0;}
   .navbar-dark .navbar-nav .nav-link{display: block; padding: 10px; line-height: 22px;}
-
   .navbar-dark .navbar-nav .nav-link i{display: none}
-
   nav.navbar .navbar-nav li {border-right: none; padding-right: 0; margin-right: 0; border-bottom: #cc005d 1px solid;}
   nav.navbar .navbar-nav li:last-child{border-bottom: none;}
   .contact-heading-sec h2::after{width: 40%;}
