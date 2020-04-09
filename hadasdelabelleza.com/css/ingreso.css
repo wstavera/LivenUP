@@ -320,6 +320,9 @@ body {
    footer h2 {
       font-size: 17px;
    }
+   nav.navbar .navbar-collapse {
+    margin-top: -53px;
+  }
 
  }
  
