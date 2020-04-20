@@ -90,23 +90,34 @@
         </div>
     </header>
           
-    <section class="body_section">
 
-      <div class="container" style="margin-top: 200px;">
-        <div class="row align-items-center">
-          <div class="col-sm-5">
-            <h1></h1>
-          </div>
-          <div class="col-sm-2 align-self-center">
-            <h1>Próximamente... </h1>
-          </div>
-          <div class="col-sm-5">
-            <h1></h1>
+
+    <section class="body_section" style="top: 150px; padding-bottom: 150px;">
+
+    	<div class="container">
+
+        <div class="row">
+          <div class="page-heading-sec">
+            <h2 class="page-heading">&nbsp;&nbsp;Acerca de Hadas de la Belleza</h2>
           </div>
         </div>
+        
+        <div class="hdlb-abt-sec">
+            <div class="row">
+              <div class="col-lg-6">
+                <img src="images/1.jpeg" width="100%" height="auto">
+              </div>
+              <div class="col-lg-6">
+                <p class="about-para"><p>En <strong>Hadas de la Belleza </strong>Ofrecemos una variedad de servicios de belleza 100% a domicilio prestado por profesionales certificadas para ayudarte a ver y sentirte mejor, 
+                        sin necesidad de que tengas que asistir a un salón de belleza, invertir tiempo y dinero en desplazamientos, ni hacer largas esperas. </h3></p>
+              </div>
+            </div>
+        </div>
+        <br>
       </div>
-     
-    </section>
+ 	  </section>
+
+
    
     <!-- Footer -->
      <footer>
@@ -177,78 +188,10 @@
 
 
     <!-- Menu que crece y decrece -->
-	  <script>
-		$(document).ajaxSend(function(event, request, settings) {
-		   $.blockUI({
-				  message: 'Please wait', 
-				  css: { 
-				  border: 'none', 
-				  padding: '15px', 
-				  backgroundColor: '#000', 
-				  '-webkit-border-radius': '10px', 
-				  '-moz-border-radius': '10px',
-				  opacity: .5, 
-				  color: '#fff' 
-				} }); 
-		});
-    
-		$(document).ajaxComplete(function(event, request, settings) {
-		  $.unblockUI();
-		});
-
-		$(function() {
-			$('#return-to-top').on('click', function(e) {
-			  e.preventDefault();
-			  $('html, body').animate({ scrollTop: 0}, 400, 'linear');
-			});
-			
-			if(detectmob()) {
-
-			} else {
-				$(".app_store_section").css('display','block');
-			}
-		});
-
-		$(window).scroll(function () {
-          var sc = $(window).scrollTop()
-          if (sc > 100) {
-              $("#header-sroll").addClass("small")
-          } else {
-              $("#header-sroll").removeClass("small")
-          }
-		});
-		
-		function detectmob() { 
-		 if( navigator.userAgent.match(/Android/i)
-		 || navigator.userAgent.match(/webOS/i)
-		 || navigator.userAgent.match(/iPhone/i)
-		 || navigator.userAgent.match(/iPad/i)
-		 || navigator.userAgent.match(/iPod/i)
-		 || navigator.userAgent.match(/BlackBerry/i)
-		 || navigator.userAgent.match(/Windows Phone/i)
-		 ){
-			return true;
-		  }
-		 else {
-			return false;
-		  }
-		}
-    </script>
+    <script src="js/menucrece.js"></script>
 
     <!-- Animaciones de carga -->
-    <script>
-      wow = new WOW(
-        {
-          animateClass: 'animated',
-          offset:       100,
-          callback:     function(box) {
-            console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-          }
-        }
-      );
-      wow.init();
-      
-    </script>
+    <script src="js/animacioncarga.js"></script>
     
   </body>
 </html>

@@ -2441,8 +2441,8 @@
   
   /* About Us */
   .page-heading-sec{ position:relative;display:table; width:100%; margin-top:10px; margin-bottom:30px;}
-  .page-heading{background:#F1F1F1; display:inline; padding:5px 15px 5px 0px; color:#884d94;}
-  .page-heading-sec:after{ position:absolute; content:''; right:0; top:0; bottom:0; margin:auto; height:2px; background:#884d94; width:100%; z-index:-1;}
+  .page-heading{background:#F1F1F1; display:inline; padding:5px 15px 5px 0px; color:#cc005d;}
+  .page-heading-sec:after{ position:absolute; content:''; right:0; top:0; bottom:0; margin:auto; height:2px; background:#cc005d; width:100%; z-index:-1;}
   .about-para{ text-align:justify; font-size:17px;}
   
   /* contact Us */
@@ -2598,7 +2598,7 @@
   .service_listing_section .mCSB_scrollTools .mCSB_draggerRail {background-color: #d1d1d1 !important; width: 5px;}
   .cart_count{display: inline-block; background: #F6DC10; padding: 7px; border-radius: 50%; color: #343434; font-weight: bold; width: 25px; height: 25px; text-align: center; line-height: 10px; position: absolute; left: -22px; top: -16px; font-size: 13px;}
   .join-us-sec-back p{text-align: justify;}
-  h2.page-heading{margin: 0; font-family: 'Raleway', sans-serif; font-size: 23px; font-weight: 600; color: #4f0064;}
+  h2.page-heading{margin: 0; font-family: 'Raleway', sans-serif; font-size: 23px; font-weight: 600; color: #cc005d;}
   .join-us-sec-back .page-heading-sec{margin-bottom: 10px;}
   #error span p{margin: 0; border: #d7adb1 1px solid; padding: 7px 10px; margin-bottom: 10px; background: #f8d7da; font-size: 13px;}
   #error.alert-danger {color: #721c24; background-color: transparent; border-color: transparent;}
