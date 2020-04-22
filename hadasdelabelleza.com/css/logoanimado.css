@@ -1,16 +1,7 @@
 
-@font-face{
-	font-family: 'Great Vibes';
-	src: url(fuentes/GreatVibes-Regular.otf);
-}
-@font-face{
-	font-family: 'Bodoni';
-	src: url(fuentes/BodoniflfBold.ttf);
-}
-@font-face{
-	font-family: 'Aleo';
-	src: url(fuentes/aleo-light.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300&display=swap');
+@import url('http://allfont.es/allfont.css?fonts=bodoni');
 
 .desaparece {
   background: rgba(255, 255, 255, 1);
@@ -229,7 +220,7 @@ svg.intro {
     display: none;
   }
   svg.intro.go .text3 {
-    font-family: 'Bodoni';
+    font-family: 'Bodoni', arial;
     font-size: 13px;
     text-transform: uppercase;
     display: block;
