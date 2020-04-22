@@ -1,4 +1,17 @@
 
+@font-face{
+	font-family: 'Great Vibes';
+	src: url(fuentes/GreatVibes-Regular.otf);
+}
+@font-face{
+	font-family: 'Bodoni';
+	src: url(fuentes/BodoniflfBold.ttf);
+}
+@font-face{
+	font-family: 'Aleo';
+	src: url(fuentes/aleo-light.ttf);
+}
+
 .desaparece {
   background: rgba(255, 255, 255, 1);
   /* background: radial-gradient(rgba(2, 2, 2, 0.5),rgba(0,0,0,0.5)); */
@@ -36,7 +49,6 @@ svg.intro {
   svg.intro.go .text1 {
     font-family: 'Great Vibes', cursive;
     font-size: 20px;
-    /* text-transform: uppercase; */
     display: block;
   }
   svg.intro.go .text1-stroke {
@@ -127,7 +139,6 @@ svg.intro {
     display: none;
   }
   svg.intro.go .text2 {
-    font-family: 'Great Vibes', cursive;
     font-family: 'Aleo', serif;
     font-size: 11px;
     display: block;
@@ -218,7 +229,7 @@ svg.intro {
     display: none;
   }
   svg.intro.go .text3 {
-    font-family: Arial, sans-serif;
+    font-family: 'Bodoni';
     font-size: 13px;
     text-transform: uppercase;
     display: block;
@@ -333,6 +344,31 @@ svg.intro {
     to {transform:rotate3d(-1, -1, 1, 360deg); fill: rgba(160, 218, 170, 0.7);}
   }
   @keyframes circle3 {
+    100% {
+      stroke-dashoffset: 0;
+    }
+    from {transform:rotate3d(-1, -1, 1, -160deg);}
+    to {transform:rotate3d(-1, -1, 1, 360deg); fill: rgba(233, 193, 250, 0.7);}
+  }
+
+  @-webkit-keyframes circle1 {
+    100% {
+      stroke-dashoffset: 0;
+      /* transform: rotate(360deg) */;
+    }
+    from {transform:rotate3d(-1, -1, 1, -160deg);}
+    to {transform:rotate3d(-1, -1, 1, 360deg); fill: rgba(139, 192, 209, 0.7);}
+    
+  }
+
+  @-webkit-keyframes circle2 {
+    100% {
+      stroke-dashoffset: 0;
+    }
+    from {transform:rotate3d(-1, -1, 1, -160deg);}
+    to {transform:rotate3d(-1, -1, 1, 360deg); fill: rgba(160, 218, 170, 0.7);}
+  }
+  @-webkit-keyframes circle3 {
     100% {
       stroke-dashoffset: 0;
     }
