@@ -35,14 +35,45 @@
     <!-- FontAwesome -->
     <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/2b66f376d5.js" crossorigin="anonymous"></script>
+
+    <!-- Loader -->
+    <link rel="stylesheet" href="css/logoanimado.css">
  
   </head>
 
 
   <body>
 
+    <!-- Loader -->
+    <div class="desaparece">
+      <div class="container " style="padding-bottom: 500px;">
+        <svg class="intro" viewbox="0 0 110 60">
+          <text text-anchor="start" x="10" y="30" class="text1 text1-stroke" clip-path="url(#text1)">Hadas</text>
+          <text text-anchor="start" x="68" y="30" class="text2 text2-stroke" clip-path="url(#text2)">de la</text>
+          <text text-anchor="start" x="45" y="43" class="text3 text3-stroke" clip-path="url(#text3)">Belleza</text>
+          <circle cx="16" cy="24" r="13"  class="circle1 circle1-stroke"></circle>
+          <circle cx="34" cy="28" r="13"  class="circle2 circle2-stroke"></circle>
+          <circle cx="23" cy="42" r="13"  class="circle3 circle3-stroke"></circle>
+          <text text-anchor="start" x="10" y="30" class="text1 text1-stroke text1-stroke-2" clip-path="url(#text1)">Hadas</text>
+          <text text-anchor="start" x="68" y="30" class="text2 text2-stroke text2-stroke-2" clip-path="url(#text2)">de la</text>
+          <text text-anchor="start" x="45" y="43" class="text3 text3-stroke text3-stroke-2" clip-path="url(#text3)">Belleza</text>
+          <defs>
+            <clipPath id="text1">
+              <text text-anchor="start" x="10" y="30" class="text1">Hadas</text>
+            </clipPath>
+            <clipPath id="text2">
+              <text text-anchor="start" x="68" y="30" class="text2">de la</text>
+            </clipPath>
+            <clipPath id="text3">
+              <text text-anchor="start" x="45" y="43" class="text3">Belleza</text>
+            </clipPath>
+          </defs>
+        </svg>
+      </div> 
+    </div>
+
 	<header>
-        <div class="header_section  ">
+      <div class="header_section  ">
 
         <div id="header-sroll">
           <!-- Navigation -->
@@ -343,6 +374,17 @@
 
     <!-- Animaciones de carga -->
     <script src="js/animacioncarga.js"></script>
+
+    <!-- Loader -->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="js/logoanimado.js"></script>
+    
+    <script type="text/javascript">
+      $(window).on('load', function () {
+        /* console.log("load"); */
+        $("div.desaparece").delay(7500).fadeOut("slow");
+      });
+    </script>
     
   </body>
 </html>
