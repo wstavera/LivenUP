@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+footer {
+  width: 100%;
+  display: inline-block;
+  /* margin: 2em 0 0 0; */
+  height: 70px;
+  background-color: #46b2f0;
+
+  /* position:fixed; */
+  left:0px;
+  bottom:0px;
+  z-index: 999999;
+  
+}
+
+
+footer .copyright {
+  width: 50%;
+  float: left;
+  /* position:fixed;
+  left:0px;
+  bottom:0px; */
+}
+
+footer .copyright p {
+  padding-left: 10%;
+  color: white;
+  font-size: 0.7em;
+  line-height: 70px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+}
+
+footer .social {
+  width: 50%;
+  float: right;
+  
+}
+
+footer .social a {
+  float: left;
+  line-height: 70px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+footer .social a:hover {
+  background-color: #222;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+
+.linked {
+  background-color: #1E83AE;
+  font-size: 22px;
+  width: 16.6%;
+}
+
+.face {
+  background-color: #3D5B94;
+  font-size: 22px;
+  width: 16.6%;
+}
+
+.tweet {
+  background-color: #3DACDD;
+  font-size: 22px;
+  width: 16.6%;
+}
+.mail {
+  background-color: rgb(219, 74, 57);
+  font-size: 22px;
+  width: 16.6%;
+}
+.instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  font-size: 22px;
+  width: 16.6%;
+}
+.instagram a:hover {
+  background-color: #222;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+
+
+.support {
+  background-color: #6dcd9a;
+  font-size: 22px;
+  width: 16.6%;
+}
+
+@media (max-width: 941px) {
+  footer {
+    position:fixed;
+    left:0px;
+    bottom:0px; 
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  
+  footer .copyright {
+    width: 100%;
+  }
+
+  footer .copyright p {
+    text-align: center;
+    padding: 0;
+  }
+
+  footer .social {
+    width: 100%;
+  }
+}
