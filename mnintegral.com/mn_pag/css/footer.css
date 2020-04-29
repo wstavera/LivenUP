@@ -11,6 +11,7 @@ footer {
   left:0px;
   bottom:0px;
   z-index: 999999;
+  transform: translateY(3px);
   
 }
 
@@ -62,29 +63,29 @@ footer .social a:hover {
 .linked {
   background-color: #1E83AE;
   font-size: 22px;
-  width: 16.6%;
+  width: 20%;
 }
 
 .face {
   background-color: #3D5B94;
   font-size: 22px;
-  width: 16.6%;
+  width: 20%;
 }
 
-.tweet {
+/* .tweet {
   background-color: #3DACDD;
   font-size: 22px;
   width: 16.6%;
-}
+} */
 .mail {
   background-color: rgb(219, 74, 57);
   font-size: 22px;
-  width: 16.6%;
+  width: 20%;
 }
 .instagram {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   font-size: 22px;
-  width: 16.6%;
+  width: 20%;
 }
 .instagram a:hover {
   background-color: #222;
@@ -98,7 +99,7 @@ footer .social a:hover {
 .support {
   background-color: #6dcd9a;
   font-size: 22px;
-  width: 16.6%;
+  width: 20%;
 }
 
 @media (max-width: 941px) {
