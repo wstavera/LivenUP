@@ -107,14 +107,6 @@
 	color: #FFF;
 }
 
-@media screen and (max-width: 1200px){
-	.tarjetas{
-		width: auto;
-		padding: 0 15px;
-		margin-bottom: 20px;
-	}
-}
-
 @media screen and (max-width: 768px){
 	.ht-section-title,
 	.ht-section-tagline{
@@ -177,12 +169,5 @@
 	.ht-post-wrapper{
 		padding-left: 0; 
 	}
-	
-	
-}
 
-@media screen and (min-width: 1001px){
-	.ht-main-navigation .ht-menu{
-		display: block !important;
-	}
 }
