@@ -24,11 +24,27 @@
     <link rel="stylesheet" type="text/css" href="mn_pag/css/footer.css">
     <link rel="stylesheet" type="text/css" href="mn_pag/css/cards.css">
     <link rel="stylesheet" type="text/css" href="mn_pag/css/acercade.css">
+    <!-- <link rel="stylesheet" type="text/css" href="mn_pag/css/popup.css"> -->
+    <link rel="stylesheet" type="text/css" href="mn_pag/css/loader.css">
     
 
   </head>
 
   <body>
+
+    <!-- Loader -->
+    <div class="loader">
+        <div class="wave-circle">
+            <span class="loading-text">MN Ingeniería Integral SAS</span>
+            <div class="wave-fill">
+                <div class="water">
+                <span class="wave"></span>
+                <span class="deep-water"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin Loader -->
 
     <header>
 
@@ -62,6 +78,10 @@
                 <li class="nav-item menu ">
                     <a class="nav-link fas far fa-address-card js-scroll-trigger" href="#contact" style="padding-bottom: 6px; padding-right: 0px;"></a>
                     <a class=" js-scroll-trigger" href="#contact" style="text-decoration: none; color: black;">Contacto&nbsp;&nbsp;&nbsp;</a>
+                </li>
+                <li class="nav-item menu ">
+                    <a class="nav-link fas fa-envelope js-scroll-trigger" href="#" style="padding-bottom: 6px; padding-right: 0px;"></a>
+                    <a class=" js-scroll-trigger" href="#" style="text-decoration: none; color: black;">Correo corporativo&nbsp;&nbsp;&nbsp;</a>
                 </li>
             </ul>
         </div>
@@ -278,10 +298,10 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum consequatur, 
                         omnis, commodi libero saepe dicta praesentium id natus animi quaerat iure 
                         architecto repellendus. Sunt vel odit voluptate? Iure, accusamus est.
-
                     </div>
+
                     <div class="ht-featured-link">
-                        <a href="#">Leer mas</a>
+                        <a href="#">Leer más</a>
                     </div>
                 </div>
                 <div class="ht-featured-post">
@@ -365,27 +385,74 @@
 
 
     <!-- footer -->
-    <footer>
+<!--     <footer>
         <div class="copyright">
-            <p>&copy 2020 - MN Ingeniería Integral SAS
+            <p>&copy 2020 - MN Ingeniería Integral SAS -->
                 <!-- &nbsp;-&nbsp;TEL 7048284&nbsp;-&nbsp;cra 71G 7d-52&nbsp;-&nbsp;Bogotá Colombia -->
-            </p>
+<!--             </p>
         </div>
         <div class="social">
           <a href="https://wa.me/#cel?text=Buen%20día,%20me%20gustaría%20conocer%20los%20servicios%20de%20MN%20Ingenierìa" class="support fab fa-whatsapp" target="_blank"></a>
           <a href="https://www.facebook.com/pages/MN-Ingenieria-Integral-sas/369398046776013" class="face fab fa-facebook-f" target="_blank"></a>
-          <!-- <a href="#" class="tweet fab fa-twitter"></a> -->
+
           <a href="mailto:comercial@mnintegral.com" class="mail fas fa-envelope" target="_blank"></a>
           <a href="https://www.linkedin.com/company/mn-ingenier%C3%ADa-integral/" class="linked fab fa-linkedin-in" target="_blank"></a>
           <a href="https://www.instagram.com/mnintegral/" class="instagram fab fa-instagram" target="_blank"></a>
         </div>
+    </footer> -->
+    
+    <footer class="footer-distributed">
+
+        <div class="footer-left row justify-content-center">
+
+            <div  class="row justify-content-center">
+                <img src="mn_pag/images/logo.png" class="logofooter">
+            </div>
+
+            <div class="row justify-content-center footer-icons">
+                <a href="https://wa.me/#cel?text=Buen%20día,%20me%20gustaría%20conocer%20los%20servicios%20de%20MN%20Ingenierìa" class="fab fa-whatsapp" target="blank"></a>
+                <a href="https://www.facebook.com/pages/MN-Ingenieria-Integral-sas/369398046776013" class="fab fa-facebook-f" target="blank"></a>
+                <a href="mailto:comercial@mnintegral.com" class="fas fa-envelope" target="blank"></a>
+                <a href="https://www.linkedin.com/company/mn-ingenier%C3%ADa-integral/" class="fab fa-linkedin-in" target="blank"></a>
+                <a href="https://www.instagram.com/mnintegral/" class="fab fa-instagram" target="blank"></a>
+            </div>
+
+            <p class="footer-company-name">Todos los derechos reservados &copy; 2020</p> <br>
+        </div>
+        
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Carrera 71G # 7d-52 <br> Bogotá, Colombia </span></p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+ 57 704 8284</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:comercial@mnintegral.com"><span class="__cf_email__" >comercial@mnintegral.com</span></a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>Síguenos en nuestras Redes sociales</span>
+                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+            </p>
+            
+        </div>
+        <p class="footer-company-name" style="text-align: right; font-size: 10px;">creado por  <a href="https://livenup.com.co">LivenUP</a> </p>
+
     </footer>
-    <!-- fin footer -->
+
+<!-- fin footer -->
+
+
 
     </main>
 
     <!-- Bootstrap core JavaScript================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     
     <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
     <script src="mn_pag/vendor/bootstrap/js/popper.js"></script>
@@ -403,6 +470,18 @@
     <script src="mn_pag/js/scroll.js"></script> 
 
     <!-- acercade tarejetas -->
-    <script src="mn_pag/js/acercade.js"></script> 
+    <script src="mn_pag/js/acercade.js"></script>
+
+    <script src="mn_pag/js/nav.js"></script>
+    
+    <!-- POPUP -->
+    <!-- <script src="mn_pag/js/popup.js"></script> -->
+
+    <script type="text/javascript">
+        $(window).on('load', function () {
+            $(".loader").fadeOut("slow");
+        });
+    </script>
+    
   </body>
 </html>
