@@ -209,7 +209,10 @@
    line-height: 7.5rem;
    font-size: 2.25rem;
    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+   transition: 0.3s;
  }
+
+ 
  
  .callout {
    padding: 15rem 0;
@@ -379,8 +382,18 @@
   
   #myImg:hover, #myImg2:hover,#myImg3:hover,#myImg4:hover,#myImg5:hover,#myImg6:hover,#myImg7:hover,#myImg8:hover {
     opacity: 0.5;
-    color: red;
+    /* color:white; */
   }
+
+  .service-icon:hover {
+    background-color: rgb(33, 69, 127);;
+    color: white;
+    transition: 0.3s;
+    /* -webkit-transform: rotateZ(380deg);
+    -moz-transform: rotateZ(380deg);    
+     transform: rotateZ(360deg); */
+  }
+
 
   
   /* The Modal (background) */
