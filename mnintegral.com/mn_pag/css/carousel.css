@@ -2,12 +2,11 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
-    /* padding-top: 3rem; */
-    /* padding-bottom: 3rem; */
-    color: #5a5a5a;
-  }
+
   
+  .carousel-indicators {
+    top: 25px;
+  }
   
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
@@ -20,11 +19,7 @@ body {
     
   }
 
-  @media screen and (max-width: 768px){
-  .carousel-indicators {
-    top: 25px;
-  }
-}
+  
 
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
@@ -79,6 +74,20 @@ body {
   }
   
   
+  .covid{
+    top: 130px;
+    } 
+  
+    .covid1{
+    color: black;
+    font-weight: 700;
+    } 
+  
+    .covid2{
+      color: black;
+      font-weight: 500;
+    } 
+  
   /* RESPONSIVE CSS
   -------------------------------------------------- */
   
@@ -93,11 +102,33 @@ body {
     .featurette-heading {
       font-size: 50px;
     }
+
+    
   }
   
   @media (min-width: 62em) {
     .featurette-heading {
       margin-top: 7rem;
     }
+
+    
+
+  }
+  @media (max-width: 768px) {
+  .covid{
+    top: 90px;
+    } 
   }
 
+  @media (max-width: 485px) {
+    .covid{
+      top: 40px;
+      } 
+      .covid1{
+        font-size: 28px;
+        } 
+      
+        .covid2{
+          font-size: 18px;
+        } 
+    }
