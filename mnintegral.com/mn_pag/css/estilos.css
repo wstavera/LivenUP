@@ -123,6 +123,7 @@ padding-bottom: 30px;
   .navbar-nav{
     padding-top:0px
     }
+
 }
 
 .ocultar{
@@ -136,3 +137,12 @@ padding-bottom: 30px;
   } 
 
 
+  .covid-btn {
+    padding-top: 70px
+  }
+    
+  @media (max-width: 768px){
+    .covid-btn {
+      padding-top: 80px
+    }
+  }
