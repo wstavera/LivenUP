@@ -24,9 +24,7 @@
     <link rel="stylesheet" type="text/css" href="mn_pag/css/footer.css">
     <link rel="stylesheet" type="text/css" href="mn_pag/css/cards.css">
     <link rel="stylesheet" type="text/css" href="mn_pag/css/acercade.css">
-    <!-- <link rel="stylesheet" type="text/css" href="mn_pag/css/popup.css"> -->
     <link rel="stylesheet" type="text/css" href="mn_pag/css/loader.css">
-    
 
   </head>
 
@@ -47,12 +45,10 @@
     <!-- Fin Loader -->
 
     <header>
-
     <!-- Redes -->
     <div class="red">
 		<div id="whatsapp"><a href="https://wa.me/#cel?text=Buen%20día,%20me%20gustaría%20conocer%20los%20servicios%20de%20MN%20Ingenierìa" target="_blank" class="fab fa-whatsapp"></a></div>
         <div id="facebook"><a href="https://www.facebook.com/pages/MN-Ingenieria-Integral-sas/369398046776013" target="_blank" class="fab fa-facebook-f"></a></div>
-        <!-- <div id="twitter"><a href="#" target="none" class="fab fa-twitter"></a></div> -->
         <div id="correo"><a href="mailto:comercial@mnintegral.com" class="fas fa-envelope" target="_blank"></a></div>
         <div id="linkedin"><a href="https://www.linkedin.com/company/mn-ingenier%C3%ADa-integral/" class="fab fa-linkedin-in" target="_blank"></a></div>
         <div id="instagram"><a href="https://www.instagram.com/mnintegral/" class="fab fa-instagram" target="_blank"></a></div>
@@ -80,8 +76,16 @@
                     <a class=" js-scroll-trigger" href="#contact" style="text-decoration: none; color: black;">Contacto&nbsp;&nbsp;&nbsp;</a>
                 </li>
                 <li class="nav-item menu ">
-                    <a class="nav-link fas fa-envelope js-scroll-trigger" href="#" style="padding-bottom: 6px; padding-right: 0px;"></a>
-                    <a class=" js-scroll-trigger" href="#" style="text-decoration: none; color: black;">Correo corporativo&nbsp;&nbsp;&nbsp;</a>
+                    <a class="nav-link fas fa-shield-virus js-scroll-trigger" href="covid.html" style="padding-bottom: 6px; padding-right: 0px;"></a>
+                    <a class=" js-scroll-trigger" href="covid.html" style="text-decoration: none; color: black;">Covid-19&nbsp;&nbsp;&nbsp;</a>
+                </li>
+                <li class="nav-item menu ">
+                    <a class="nav-link fas fa-tasks js-scroll-trigger" href="covid.html" style="padding-bottom: 6px; padding-right: 0px;"></a>
+                    <a class=" js-scroll-trigger" href="hseq.html" style="text-decoration: none; color: black;">HSEQ&nbsp;&nbsp;&nbsp;</a>
+                </li>
+                <li class="nav-item menu ">
+                    <a class="nav-link fas fa-envelope js-scroll-trigger" href="https://maia.mi.com.co/" target="_blank" style="padding-bottom: 6px; padding-right: 0px;"></a>
+                    <a class=" js-scroll-trigger" href="https://maia.mi.com.co/" target="_blank" style="text-decoration: none; color: black;">Correo corporativo&nbsp;&nbsp;&nbsp;</a>
                 </li>
             </ul>
         </div>
@@ -89,7 +93,6 @@
     <!-- Nav fin-->
 
     </header>
-
 
     <main role="main">
 
@@ -99,35 +102,49 @@
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="first-slide " src="mn_pag/images/2.jpg" alt="First slide">
+          
+            <div class="carousel-item active" >
+            <img class="first-slide " src="mn_pag/images/covid1.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-center covid">
+                <h1 class="covid1">En MN Ingeniería Integral hacemos frente al Covid-19</h1>
+                <h3 class="covid2">
+                    <em>Implementamos nuestro protocolo de bioseguridad y lo cumplimos a cabalidad en nuestras operaciones.</em>
+                    <p style="padding-top: 30px;"><a class="btn btn-lg btn-primary" href="covid.html#protocolos" role="button">¿Cómo lo hacemos?</a></p>
+                </h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img class="first-slide " src="mn_pag/images/2.jpg" alt="Second slide">
             <div class="container">
               <div class="carousel-caption text-left">
                 <h1>COMPROMISO</h1>
                 <p>cumplimiento integral con nuestros clientes, accionistas y talento  humano</p>
-                <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p> -->
               </div>
             </div>
           </div>
+
           <div class="carousel-item">
-            <img class="second-slide" src="mn_pag/images/3.jpg" alt="Second slide">
+            <img class="second-slide" src="mn_pag/images/3.jpg" alt="Third slide">
             <div class="container">
               <div class="carousel-caption">
                 <h1>CONFIANZA</h1>
                 <p>en el aseguramiento de nuestros procesos</p>
-                <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p> -->
               </div>
             </div>
           </div>
+
           <div class="carousel-item">
-            <img class="third-slide" src="mn_pag/images/4.jpg" alt="Third slide">
+            <img class="third-slide" src="mn_pag/images/4.jpg" alt="fourth slide">
             <div class="container">
               <div class="carousel-caption text-right">
                 <h1>TRABAJO</h1>
                 <p>Valoramos y promovemos el trabajo en equipo, para aprender y brindar soluciones rápidas</p>
-                <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p> -->
               </div>
             </div>
           </div>
@@ -146,150 +163,95 @@
 
       <!-- Acerca de -->
       <div class="container marketing" id="nosotros">
-
-        <!-- <hr class="featurette-divider" id="nosotros"> -->
-
-
           <hr class="featurette-divider">
-
           <section class="container">
-            <div class="page-header">
-                <h1 style="text-align: center;">Acerca de MN<br></h1>
-            </div>
-            <div class="row active-with-click justify-content-md-center">
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <article class="material-card Blue">
-                        <h2>
-                            <span>Un poco</span>
-                            <strong>
-                                <i class="fa fa-fw fa-star"></i>
-                                Acerca de:
-                            </strong>
-                        </h2>
-                        <div class="mc-content">
-                            <div class="img-container">
-                                <img class="img-responsive" src="mn_pag/images/5.png" >
-                            </div>
-                            <div class="mc-description">
-                              MN INGENIERIA INTEGRAL S.A.S. es una empresa colombiana fundada el 23 de Febrero del año 2013, 
-                              cuya actividad principal es diseñar y ejecutar proyectos de Ingeniería en diversas áreas de desarrollo: 
-                              eléctrica, electrónica, electromecánica, mecatrónica, química, petrolera y de sistemas. Adicional a esto 
-                              presta el servicio de suministro de materiales y equipos necesarios para el desarrollo de la labor de 
-                              Ingeniería o venta particular, contando con toda la disposición, calidad, tecnología y talento humano 
-                              necesarias para brindar el mejor servicio de calidad a precio justo.
-                            </div>
-                        </div>
-                        <a class="mc-btn-action">
-                            <i class="fa fa-bars"></i>
-                        </a>
-                        <!-- <div class="mc-footer">
-                            <h4>
-                                Social
-                            </h4>
-                            <a class="fa fa-fw fa-facebook"></a>
-                            <a class="fa fa-fw fa-twitter"></a>
-                            <a class="fa fa-fw fa-linkedin"></a>
-                            <a class="fa fa-fw fa-google-plus"></a>
-                        </div> -->
-                    </article>
+                <div class="page-header">
+                    <h1 style="text-align: center;">Acerca de MN<br></h1>
                 </div>
+                <div class="row active-with-click justify-content-md-center">
+                    
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <article class="material-card Blue">
+                            <h2>
+                                <span>Un poco</span>
+                                <strong><i class="fa fa-fw fa-star"></i> Acerca de:</strong>
+                            </h2>
+                            <div class="mc-content">
+                                <div class="img-container">
+                                    <img class="img-responsive" src="mn_pag/images/5.png" >
+                                </div>
+                                <div class="mc-description">
+                                MN INGENIERIA INTEGRAL S.A.S. es una empresa colombiana fundada el 23 de Febrero del año 2013, 
+                                cuya actividad principal es diseñar y ejecutar proyectos de Ingeniería en diversas áreas de desarrollo: 
+                                eléctrica, electrónica, electromecánica, mecatrónica, química, petrolera y de sistemas. Adicional a esto 
+                                presta el servicio de suministro de materiales y equipos necesarios para el desarrollo de la labor de 
+                                Ingeniería o venta particular, contando con toda la disposición, calidad, tecnología y talento humano 
+                                necesarias para brindar el mejor servicio de calidad a precio justo.
+                                </div>
+                            </div>
+                            <a class="mc-btn-action"><i class="fa fa-bars"></i></a>
+                        </article>
+                    </div>
 
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <article class="material-card Light-Blue">
-                        <h2>
-                            <span>Es nuestra</span>
-                            <strong>
-                                <i class="fa fa-fw fa-star"></i>
-                                Misión
-                            </strong>
-                        </h2>
-                        <div class="mc-content">
-                            <div class="img-container">
-                                <img class="img-responsive" src="mn_pag/images/6.png">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <article class="material-card Light-Blue">
+                            <h2>
+                                <span>Es nuestra</span>
+                                <strong><i class="fa fa-fw fa-star"></i>Misión</strong>
+                            </h2>
+                            <div class="mc-content">
+                                <div class="img-container">
+                                    <img class="img-responsive" src="mn_pag/images/6.png">
+                                </div>
+                                <div class="mc-description">
+                                MN INGENIERIA INTEGRAL S.A.S es una organización que brinda soluciones integrales de 
+                                ingeniería y montajes industriales en las etapas de diseño, desarrollo e implementación de instalaciones 
+                                electromecánicas, automatización y mantenimientos industriales, a través de talento humano calificado, 
+                                experiencia y mejoramiento continuo de nuestros procesos del Sistema de Gestión Integrado asegurando 
+                                la satisfacción de nuestros clientes
+                                </div>
                             </div>
-                            <div class="mc-description">
-                              MN INGENIERIA INTEGRAL S.A.S es una organización que brinda soluciones integrales de 
-                              ingeniería y montajes industriales en las etapas de diseño, desarrollo e implementación de instalaciones 
-                              electromecánicas, automatización y mantenimientos industriales, a través de talento humano calificado, 
-                              experiencia y mejoramiento continuo de nuestros procesos del Sistema de Gestión Integrado asegurando 
-                              la satisfacción de nuestros clientes
+                            <a class="mc-btn-action"><i class="fa fa-bars"></i></a>
+                        </article>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <article class="material-card Cyan">
+                            <h2>
+                                <span>Somos</span>
+                                <strong><i class="fa fa-fw fa-star"></i>Visionarios</strong>
+                            </h2>
+                            <div class="mc-content">
+                                <div class="img-container">
+                                    <img class="img-responsive" src="mn_pag/images/7.png">
+                                </div>
+                                <div class="mc-description">
+                                Para el año 2023 MN INGENIERÍA INTEGRAL S.A.S obtendrá crecimiento, sostenibilidad y calidad 
+                                en los diferentes ámbitos  manteniendo una excelente cultura en la prestación del servicio, basados en el 
+                                direccionamiento estratégico, y  avances tecnológicos
+                                </div>
                             </div>
-                        </div>
-                        <a class="mc-btn-action">
-                            <i class="fa fa-bars"></i>
-                        </a>
-                        <!-- <div class="mc-footer">
-                            <h4>
-                                Social
-                            </h4>
-                            <a class="fa fa-fw fa-facebook"></a>
-                            <a class="fa fa-fw fa-twitter"></a>
-                            <a class="fa fa-fw fa-linkedin"></a>
-                            <a class="fa fa-fw fa-google-plus"></a>
-                        </div> -->
-                    </article>
+                            <a class="mc-btn-action"><i class="fa fa-bars"></i></a>
+                        </article>
+                    </div> 
                 </div>
-
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <article class="material-card Cyan">
-                        <h2>
-                            <span>Somos</span>
-                            <strong>
-                                <i class="fa fa-fw fa-star"></i>
-                                Visionarios
-                            </strong>
-                        </h2>
-                        <div class="mc-content">
-                            <div class="img-container">
-                                <img class="img-responsive" src="mn_pag/images/7.png">
-                            </div>
-                            <div class="mc-description">
-                              Para el año 2023 MN INGENIERÍA INTEGRAL S.A.S obtendrá crecimiento, sostenibilidad y calidad 
-                              en los diferentes ámbitos  manteniendo una excelente cultura en la prestación del servicio, basados en el 
-                              direccionamiento estratégico, y  avances tecnológicos
-                            </div>
-                        </div>
-                        <a class="mc-btn-action">
-                            <i class="fa fa-bars"></i>
-                        </a>
-                        <!-- <div class="mc-footer">
-                            <h4>
-                                Social
-                            </h4>
-                            <a class="fa fa-fw fa-facebook"></a>
-                            <a class="fa fa-fw fa-twitter"></a>
-                            <a class="fa fa-fw fa-linkedin"></a>
-                            <a class="fa fa-fw fa-google-plus"></a>
-                        </div> -->
-                    </article>
-                </div>
-            </div>
-        </section>
+            </section>
 
 
-          <hr class="featurette-divider" id="servicios">
-
-          
+            <hr class="featurette-divider" id="servicios">
 
       </div>
       <!-- Acerca de fin-->
 
-
-      
-
-
-
-      <!-- servicios -->
-      <section class="section tarjetas">
-        <div class="container ctarjetas" >
-            
+    <!-- servicios -->
+    <section class="section tarjetas">
+        <div class="container ctarjetas" > 
             <div class="ht-section-title-tagline">
                 <h2 class="ht-section-title">Servicios</h2>
                 <div class="ht-section-tagline">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum fuga quod.
                 </div>
             </div>
-            
             <div class="ht-featured-post-wrap">
                 <div class="ht-featured-post">
                     <div class="ht-featured-icon"><i class="fa fa-desktop"></i></div>
@@ -320,27 +282,27 @@
                     <div class="ht-featured-icon"><i class="fas fa-tools"></i></div>
                     <h5>Mantenimiento <br> industrial</h5>
                     <div class="ht-featured-excerpt">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum consequatur, 
-                      omnis, commodi libero saepe dicta praesentium id natus animi quaerat iure 
-                      architecto repellendus. Sunt vel odit voluptate? Iure, accusamus est.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum consequatur, 
+                        omnis, commodi libero saepe dicta praesentium id natus animi quaerat iure 
+                        architecto repellendus. Sunt vel odit voluptate? Iure, accusamus est.
                     </div>
                     <div class="ht-featured-link">
                         <a href="#">Leer mas</a>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
-
-    <section class="section tarjetas"></section>
-    <div class="container ctarjetas" >
-          <div class="ht-section-title-tagline">
-              <h2 class="ht-section-title">&nbsp;</h2>
-          </div>
+    <!-- Ajuste de seccion servicios -->
+    <section class="section tarjetas">
+        <div class="container ctarjetas" >
+            <div class="ht-section-title-tagline">
+                <h2 class="ht-section-title">&nbsp;</h2>
+            </div>
         </div>
     </section>
     <!-- servicios fin-->
+
 
     <!-- contactenos -->
     <section class="page-section" id="contact">
@@ -379,76 +341,56 @@
               </div>
           </form>
       </div>
-  </section>
-<!-- contactenos fin-->
-
-
+    </section>
+    <!-- contactenos fin-->
 
     <!-- footer -->
-<!--     <footer>
-        <div class="copyright">
-            <p>&copy 2020 - MN Ingeniería Integral SAS -->
-                <!-- &nbsp;-&nbsp;TEL 7048284&nbsp;-&nbsp;cra 71G 7d-52&nbsp;-&nbsp;Bogotá Colombia -->
-<!--             </p>
-        </div>
-        <div class="social">
-          <a href="https://wa.me/#cel?text=Buen%20día,%20me%20gustaría%20conocer%20los%20servicios%20de%20MN%20Ingenierìa" class="support fab fa-whatsapp" target="_blank"></a>
-          <a href="https://www.facebook.com/pages/MN-Ingenieria-Integral-sas/369398046776013" class="face fab fa-facebook-f" target="_blank"></a>
-
-          <a href="mailto:comercial@mnintegral.com" class="mail fas fa-envelope" target="_blank"></a>
-          <a href="https://www.linkedin.com/company/mn-ingenier%C3%ADa-integral/" class="linked fab fa-linkedin-in" target="_blank"></a>
-          <a href="https://www.instagram.com/mnintegral/" class="instagram fab fa-instagram" target="_blank"></a>
-        </div>
-    </footer> -->
-    
-    <footer class="footer-distributed">
-
-        <div class="footer-left row justify-content-center">
-
-            <div  class="row justify-content-center">
-                <img src="mn_pag/images/logo.png" class="logofooter">
+    <footer >
+        <div class="footer-distributed"> 
+            <div class="row">
+                <div class=" col-md-5  col-centered">
+                    <div  class="row justify-content-center">
+                        <img src="mn_pag/images/logo.png" class="logofooter">
+                    </div>
+                    <div class="row justify-content-center footer-icons">
+                        <a href="https://wa.me/#cel?text=Buen%20día,%20me%20gustaría%20conocer%20los%20servicios%20de%20MN%20Ingenierìa" class="fab fa-whatsapp" target="blank"></a>
+                        <a href="https://www.facebook.com/pages/MN-Ingenieria-Integral-sas/369398046776013" class="fab fa-facebook-f" target="blank"></a>
+                        <a href="mailto:comercial@mnintegral.com" class="fas fa-envelope" target="blank"></a>
+                        <a href="https://www.linkedin.com/company/mn-ingenier%C3%ADa-integral/" class="fab fa-linkedin-in" target="blank"></a>
+                        <a href="https://www.instagram.com/mnintegral/" class="fab fa-instagram" target="blank"></a>
+                    </div>
+                    <p class="footer-company-name">Síguenos en nuestras redes sociales</p> 
+                    
+                </div>
+                <div class="footer-center col-md-3 col-centered">
+                    <div class="row">
+                        <i class="fa fa-map-marker"></i>
+                        <p><span>Carrera 71G # 7d-52 <br> Bogotá, Colombia </span></p>
+                    </div>
+                    <div class="row">
+                        <i class="fa fa-phone"></i>
+                        <p style="margin-top: 15px;"><span>+ 57 704 8284</span></p>
+                    </div>
+                    <div class="row">
+                        <i class="fa fa-envelope"></i>
+                        <p style="margin-top: 15px;"><a href="mailto:comercial@mnintegral.com"><span class="__cf_email__ email" >comercial@mnintegral.com</span></a></p>
+                    </div>
+                </div>
+                <div class=" footer-right col-md-4 col-centered">
+                    <p class="footer-company-about">
+                        <span>Nuestras últimas noticias!</span>
+                        Estamos estrenando nuestra nueva página WEB, para nosotros: MN Ingeniería Integral SAS es un gusto dar a conocer nuestros servicios y comunicados por este medio.
+                    </p>
+                </div> 
             </div>
-
-            <div class="row justify-content-center footer-icons">
-                <a href="https://wa.me/#cel?text=Buen%20día,%20me%20gustaría%20conocer%20los%20servicios%20de%20MN%20Ingenierìa" class="fab fa-whatsapp" target="blank"></a>
-                <a href="https://www.facebook.com/pages/MN-Ingenieria-Integral-sas/369398046776013" class="fab fa-facebook-f" target="blank"></a>
-                <a href="mailto:comercial@mnintegral.com" class="fas fa-envelope" target="blank"></a>
-                <a href="https://www.linkedin.com/company/mn-ingenier%C3%ADa-integral/" class="fab fa-linkedin-in" target="blank"></a>
-                <a href="https://www.instagram.com/mnintegral/" class="fab fa-instagram" target="blank"></a>
-            </div>
-
-            <p class="footer-company-name">Todos los derechos reservados &copy; 2020</p> <br>
-        </div>
-        
-
-        <div class="footer-center">
-            <div>
-                <i class="fa fa-map-marker"></i>
-                <p><span>Carrera 71G # 7d-52 <br> Bogotá, Colombia </span></p>
-            </div>
-            <div>
-                <i class="fa fa-phone"></i>
-                <p>+ 57 704 8284</p>
-            </div>
-            <div>
-                <i class="fa fa-envelope"></i>
-                <p><a href="mailto:comercial@mnintegral.com"><span class="__cf_email__" >comercial@mnintegral.com</span></a></p>
-            </div>
-        </div>
-        <div class="footer-right">
-            <p class="footer-company-about">
-                <span>Síguenos en nuestras Redes sociales</span>
-                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-            </p>
-            
-        </div>
-        <p class="footer-company-name" style="text-align: right; font-size: 10px;">creado por  <a href="https://livenup.com.co">LivenUP</a> </p>
-
+        </div>   
     </footer>
-
-<!-- fin footer -->
-
-
+    <!-- pie de pàgina -->
+    <div class="post-footer">
+        <p>Todos los derechos reservados MN Ingeniería Integral SAS &copy; 2020</p> 
+        <p>Creado por  <a href="https://livenup.com.co" >LivenUP</a> </p>
+    </div>
+    <!-- fin footer -->
 
     </main>
 
@@ -473,9 +415,6 @@
     <script src="mn_pag/js/acercade.js"></script>
 
     <script src="mn_pag/js/nav.js"></script>
-    
-    <!-- POPUP -->
-    <!-- <script src="mn_pag/js/popup.js"></script> -->
 
     <script type="text/javascript">
         $(window).on('load', function () {
