@@ -138,11 +138,17 @@ padding-bottom: 30px;
 
 
   .covid-btn {
-    padding-top: 70px
+    padding-top: 110px
   }
     
-  @media (max-width: 768px){
+  @media (max-width: 485px){
     .covid-btn {
-      padding-top: 80px
+      padding-top: 160px
+    }
+  }
+  @media (max-width: 350px){
+    .covid-btn {
+      padding-top: 70px;
+      
     }
   }
