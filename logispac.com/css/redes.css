@@ -1,0 +1,101 @@
+.red{
+	position: fixed;
+	top: 40%;
+	z-index: 100;
+    left: 0;
+    display: block;
+}
+#whatsapp a{
+	background: rgba(37, 211, 102, 0.7);
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	width: 35px;
+	transition: all .4s ease;
+}
+#whatsapp a:hover{
+	background: #000;
+	padding: 10px 35px;
+}
+
+#facebook a{
+	background: #3b5998;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	width: 35px;
+	transition: all .4s ease;
+}
+#facebook a:hover{
+	background: #000;
+	padding: 10px 35px;
+}
+/* #youtube a{
+	background: #bb0000;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	width: 55px;
+	transition: all .4s ease;
+}
+#youtube a:hover{
+	background: #000;
+	padding: 10px 50px;
+} */
+#twitter a{
+	background: #55acee;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	width: 35px;
+	transition: all .4s ease;
+}
+#twitter a:hover{
+	background: #000;
+	padding: 10px 35px;
+}
+#correo a{
+	background: rgba(219, 74, 57, 0.7);
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	width: 35px;
+	transition: all .4s ease;
+}
+#correo a:hover{
+	background: #000;
+	padding: 10px 35px;
+}
+#linkedin a{
+	background: rgba(40, 103, 178, 0.7);
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	width: 35px;
+	transition: all .4s ease;
+}
+#linkedin a:hover{
+	background: #000;
+	padding: 10px 35px;
+}
+#instagram a{
+	/* background: rgba(40, 103, 178, 0.7); */
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	width: 35px;
+    transition: all .4s ease;
+    background: radial-gradient(circle at 30% 107%, #fdf49767 0%, #fdf49785 5%, #fd584975 45%, #d6249e8f 60%, rgba(40, 89, 235, 0.644) 90%);
+
+}
+#instagram a:hover{
+	background: #000;
+	padding: 10px 35px;
+}
+
+
+/* @media (max-width: 600px) {
+    .red {
+      display: block;
+    }
+  } */
