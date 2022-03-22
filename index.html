@@ -289,26 +289,25 @@
                         <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
                             <h3 class="widget-title" id="contact-us">Contáctanos</h3>
 
-                            <form>
+                            <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
                                 <div class="form-group">
                                     <label for="Input1">Nombre</label>
-                                    <input type="text" class="form-control" id="Input1" placeholder="Pepito Pérez">
+                                    <!-- <input type="text" class="form-control" id="Input1" placeholder="Pepito Pérez"> -->
+                                    <input type="text" name="name" class="form-control" required placeholder="Nombre">
                                 </div>
                                 <div class="form-group">
                                     <label for="Input2">Email</label>
-                                    <input type="email" class="form-control" id="Input2"
-                                        placeholder="pperz@tudominio.com">
+                                    <!-- <input type="email" class="form-control" id="Input2"
+                                        placeholder="pperz@tudominio.com"> -->
+                                        <input type="email" name="email" class="form-control" required placeholder="E-mail">
                                 </div>
-                                <!-- <div class="form-group">
-                                    <label for="Input3">Teléfono</label>
-                                    <input type="number" class="form-control" id="Input3" placeholder="3101234567">
-                                </div> -->
                                 <div class="form-group">
                                     <label for="Textarea1">Mensaje</label>
-                                    <textarea class="form-control" id="Textarea1" rows="2"></textarea>
+                                    <input type="text" name="asunto" placeholder="Asunto" class="form-control" required>
                                 </div>
+                                <div data-netlify-recaptcha="true" class="reca"></div>
+                                <button type="submit" class="btn btn-primary">Enviar</button>
                             </form>
-
 
                         </div><!-- Col end -->
 
